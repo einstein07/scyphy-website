@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fff; /* Changed to white */
+    padding: 1rem;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+
+header h1 {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.nav-container {
+    background-color: #59C7EB;; /* Blue background */
+    padding: 0.5rem; /* Inner padding */
+    margin-top: 0.5rem; /* Space from header-container */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Reset margin */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White text for contrast on blue */
+    font-size: 1rem;
+    padding: 0.5rem;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4; /* Lighter shade on hover */
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.seminar {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.seminar-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.seminar-link:hover .seminar {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.speaker-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-right: 1rem;
+}
+
+.seminar-details {
+    flex: 1;
+}
+
+.seminar-details h3 {
+    margin-top: 0;
+    color: #007bff;
+    font-size: 1.1rem;
+}
+
+/* Styles for seminar.html */
+.seminar-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #59C7EB;
+    color: #fff; /* White text for contrast on blue */
+    font-size: 0.9rem;
+}
+
+/* Mobile optimizations (below 768px) */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        padding: 0.5rem 0;
+    }
+
+    .header-logo {
+        width: 40px;
+        height: 40px;
+        margin: 0.5rem 0;
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+        margin: 0.5rem 0;
+    }
+
+    .nav-container {
+        margin-top: 0.25rem; /* Slightly less space on mobile */
+        padding: 0.75rem; /* More padding for touch */
+    }
+
+    nav ul li {
+        display: block; /* Stack nav items */
+        margin: 0.5rem 0;
+    }
+
+    nav ul li a {
+        font-size: 1.1rem;
+        padding: 0.75rem;
+    }
+
+    main {
+        padding: 0.5rem;
+    }
+
+    .seminar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .speaker-image {
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .seminar-details {
+        width: 100%;
+    }
+
+    .seminar-details h3 {
+        font-size: 1rem;
+    }
+
+    .seminar-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .seminar-header .speaker-image {
+        margin-bottom: 1rem;
+    }
+
+    .seminar-header .seminar-details {
+        width: 100%;
+    }
+}
+
+/* Extra small screens (below 480px) */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1rem;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .seminar-details h3 {
+        font-size: 0.9rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}

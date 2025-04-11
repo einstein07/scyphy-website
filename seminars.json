@@ -1,0 +1,74 @@
+[
+    {
+        "id": "seminar1",
+        "title": "Exploring Living Matter through Large Collectives.",
+        "date": "2025-04-09",
+        "time": "13:15 - 13:55",
+        "speaker": "Luke Costello",
+        "topic": "Exploring Living Matter through Large Collectives.",
+        "image": "images/luke.jpg",
+        "abstract": "Developments in physical sciences over the last couple hundred years have enabled us to understand the nature and general tendencies of the matter that comprises much of the observable universe. Missing from this picture, however, is a general understanding of where living things fit in. Life tends to be comprised of active components, who themselves are little open systems interacting in complex ways with each other and their environments and who are consequently not easily described by equilibrium theories like classical Thermodynamics. I'll talk about my work observing large collectives (of locusts and fish) as a kind of 'living matter' as a way to try to improve our understanding of living systems in general.",
+        "bio": "Luke Costello is a PostDoc in the Department of Collective Behavior at the Max Planck Institute of Animal Behavior (MPIAB). He received a BS in Chemistry from Oregon State University, an MS in Materials Science and Engineering from the University of Delaware, and a PhD in Mechanical Engineering from the Georgia Institute of Technology. His current research interests are in applying concepts from chemistry and physics to understanding the biology of large collectives and also vice versa - using observations of large biological systems to understand basic principles of nature.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar2",
+        "title": "What I Did Last Winter",
+        "date": "2025-04-23",
+        "time": "11:30 - 12:15",
+        "speaker": "Heiko Hamann",
+        "topic": "What I Did Last Winter",
+        "image": "images/Hamann.jpg",
+        "abstract": "During my sabbatical in the past winter term, I undertook a research-focused journey spanning four international collaborations, each advancing different facets of intelligent autonomous systems. In Boston, USA, I worked with Prof. Carlo Pinciroli at Worcester Polytechnic Institute (WPI) on the development of scalable software infrastructure for swarm robotics, aimed at improving the programmability of large-scale robot collectives. In Granada, Spain, I collaborated with Dr. Héctor García de Marina on the control of multi-drone systems, with a particular focus on the coordination of fixed-wing UAVs operating in decentralized settings. In Bogotá, Colombia, I joined Prof. Félix Mohr at Universidad de La Sabana to explore the use of automated machine learning (AutoML) in the analysis of electrophysiological data from natural plants, investigating plant sensing and signal propagation with ML tools. Finally, in Cape Town, South Africa, I collaborated with Prof. Geoff Nitschke at the University of Cape Town on evolutionary swarm robotics, examining how evolutionary algorithms can be used to design collective robot behaviors (e.g., shepherding). Together, these research stays broadened the scope of my work across swarm robotics, aerial systems, AI for biosignal interpretation, and evolutionary design, while reinforcing the global and interdisciplinary nature of modern swarm robotics research.",
+        "bio": "Since 2022 Heiko Hamann is professor for Cyber-physical Systems at the University of Konstanz, Germany, and member of the \"Centre for the Advanced Study of Collective Behaviour\" in Konstanz. Before he was professor at the University of Luebeck and the University of Paderborn. His main research interests are swarm robotics, bio-hybrid systems, evolutionary robotics, and modeling of complex systems. He enjoys working in multi-disciplinary teams with ethologists, plant biologists, architects, and psychologists. Heiko Hamann is author of the book \"Swarm Robotics: A Formal Approach\" (Springer, 2018) and currently working on the 2nd edition which is expected by so many in the world. He is editor-in-chief of the Swarm Intelligence Journal since 2023.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar3",
+        "title": "Multi-scale analysis of phase transition and swarm initiation in desert locusts.",
+        "date": "2025-04-30",
+        "time": "11:30 - 12:15",
+        "speaker": "Daniele Carlesso",
+        "topic": "Multi-scale analysis of phase transition and swarm initiation in desert locusts.",
+        "image": "images/daniele.jpeg",
+        "abstract": "The desert locust, a form of grasshopper, is a notorious plague insect. Swarms of locusts can extend over several hundred square kilometers with up to 80 million individuals per km2, posing severe threats to global food security. However, locusts do not always swarm. When food is abundant and population density is low, individuals remain as cryptic and sedentary ‘solitarious’ grasshoppers. Population upsurges and swarming arises when food scarcity in highly populated areas forces locusts to aggregate around limited resources, causing a transition to the ‘gregarious’ swarm-forming phase. Although behavioral and physiological changes associated with crowding have been widely documented, the biological mechanisms mediating the initiation of swarming and collective migrations are not well understood. We combine laboratory swarming assays with virtual reality and RNA sequencing to investigate when and how collective locust marching emerges. We use motion capture technology to continuously monitor the behaviour of solitary locusts during their first exposure to marching bands of gregarious conspecifics across several days. Preliminary findings suggest that, while rapid changes in response to conspecifics can be observed within a few hours, these do not appear sufficient to drive persistent phenotypic changes. Instead, solitary locusts displayed instances of marching-like behaviour after one day of crowding and started continuously marching only after multiple days of exposure to conspecifics. Complementary experiments in virtual reality - where individual locusts are embedded within immersive, responsive, and photorealistic virtual swarms with predefined statistics – demonstrate that exposure to moving virtual conspecifics is sufficient to trigger marching behaviour in solitary locusts crowded for three days. Further analyses will provide deeper insights into how changes in individual interaction maps and kinematics can lead to the formation of coordinated marching events.",
+        "bio": "To be added...",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar4",
+        "title": "Mesh2SLAM in VR: A Fast Geometry-Based SLAM Framework for Rapid Prototyping in Virtual Reality Applications.",
+        "date": "2025-05-07",
+        "time": "11:30 - 12:15",
+        "speaker": "Carlos Pinheiro",
+        "topic": "Mesh2SLAM in VR: A Fast Geometry-Based SLAM Framework for Rapid Prototyping in Virtual Reality Applications.",
+        "image": "images/carlos.jpeg",
+        "abstract": "To be added...",
+        "bio": "To be added...",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar5",
+        "title": "Decisions on the Move: Embodied Spatiotemporal Computations.",
+        "date": "2025-05-14",
+        "time": "11:30 - 12:15",
+        "speaker": "August Paula",
+        "topic": "Decisions on the Move: Embodied Spatiotemporal Computations.",
+        "image": "images/august.jpeg",
+        "abstract": "To be added...",
+        "bio": "To be added...",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar6",
+        "title": "Energetic benefits of social information use for movement decisions in soaring flight.",
+        "date": "2025-05-21",
+        "time": "11:30 - 12:15",
+        "speaker": "Eleonora Gatti",
+        "topic": "Energetic benefits of social information use for movement decisions in soaring flight.",
+        "image": "images/eleonora.jpeg",
+        "abstract": "To be added...",
+        "bio": "To be added...",
+        "location": "Z8 Kitchen"
+    }
+]
