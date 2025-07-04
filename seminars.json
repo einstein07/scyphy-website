@@ -13,6 +13,18 @@
     },
     {
         "id": "seminar2",
+        "title": "Counterfactual rewards promote collective transport using individually controlled swarm microrobots",
+        "date": "2025-04-16",
+        "time": "11:30 - 12:15",
+        "speaker": "Veit-Lorenz Heuthe",
+        "topic": "Counterfactual rewards promote collective transport using individually controlled swarm microrobots",
+        "image": "images/Veit-Lorenz_Heuthe.JPG",
+        "abstract": "Swarm robots offer fascinating opportunities to perform complex tasks beyond the capabilities of individual machines. Just as a swarm of ants collectively moves large objects, similar functions can emerge within a group of robots through individual strategies based on local sensing. However, realizing collective functions with individually controlled microrobots is particularly challenging because of their micrometer size, large number of degrees of freedom, strong thermal noise relative to the propulsion speed, and complex physical coupling between neighboring microrobots. Here, we implemented multiagent reinforcement learning (MARL) to generate a control strategy for up to 200 microrobots whose motions are individually controlled by laser spots. During the learning process, we used so-called counterfactual rewards that automatically assign credit to the individual microrobots, which allows fast and unbiased training. With the help of this efficient reward scheme, swarm microrobots learn to collectively transport a large cargo object to an arbitrary position and orientation, similar to ant swarms. We show that this flexible and versatile swarm robotic system is robust to variations in group size, the presence of malfunctioning units, and environmental noise. In addition, we let the robot swarms manipulate multiple objects simultaneously in a demonstration experiment, highlighting the benefits of distributed control and independent microrobot motion. Control strategies such as ours can potentially enable complex and automated assembly of mobile micromachines, programmable drug delivery capsules, and other advanced lab-on-a-chip applications.",
+        "bio": "To be added...",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar3",
         "title": "What I Did Last Winter",
         "date": "2025-04-23",
         "time": "11:30 - 12:15",
@@ -24,7 +36,7 @@
         "location": "Z8 Kitchen"
     },
     {
-        "id": "seminar3",
+        "id": "seminar4",
         "title": "Multi-scale analysis of phase transition and swarm initiation in desert locusts.",
         "date": "2025-04-30",
         "time": "11:30 - 12:15",
@@ -36,39 +48,112 @@
         "location": "Z8 Kitchen"
     },
     {
-        "id": "seminar4",
+        "id": "seminar5",
         "title": "Mesh2SLAM in VR: A Fast Geometry-Based SLAM Framework for Rapid Prototyping in Virtual Reality Applications.",
         "date": "2025-05-07",
         "time": "11:30 - 12:15",
         "speaker": "Carlos Pinheiro",
         "topic": "Mesh2SLAM in VR: A Fast Geometry-Based SLAM Framework for Rapid Prototyping in Virtual Reality Applications.",
         "image": "images/carlos.jpeg",
-        "abstract": "To be added...",
-        "bio": "To be added...",
+        "abstract": "Simultaneous Localization and Mapping (SLAM) is a cornerstone of robotics and AR/VR applications. While SLAM simulations are essential for testing new approaches, resource-constrained devices such as VR head-mounted displays (HMDs) pose challenges due to high computational demands and limited access to sensor data. This work introduces a sparse SLAM framework that leverages mesh geometry projections as features, improving efficiency and bypassing the need for direct sensor input. We demonstrate its effectiveness in simulation for VR applications and through numerical evaluations, advancing SLAM research for constrained environments.",
+        "bio": "Carlos Pinheiro is a PhD candidate at the University of Konstanz, researching real-time SLAM and 3D reconstruction for XR, robotics, and multi-agent systems. His background in CGI, video game development, and computer vision bridges graphics and vision with classical and modern AI—expertise he now applies to enabling efficient spatial computing on resource-constrained devices. Before re-entering academia, he worked at Softkinetic (now Sony DepthSensing Solutions), NXP Semiconductors, MBJ Solutions, Hensoldt Sensors, and Lake Fusion Technologies—where he developed systems for embedded validation, industrial AI, military VR, multi-object tracking on different domains including LiDAR, camera, and radar, and mixed-reality ADAS simulation.",
         "location": "Z8 Kitchen"
     },
     {
-        "id": "seminar5",
+        "id": "seminar6",
         "title": "Decisions on the Move: Embodied Spatiotemporal Computations.",
         "date": "2025-05-14",
         "time": "11:30 - 12:15",
         "speaker": "August Paula",
         "topic": "Decisions on the Move: Embodied Spatiotemporal Computations.",
         "image": "images/august.jpeg",
-        "abstract": "To be added...",
-        "bio": "To be added...",
+        "abstract": "Animals rely on movement to efficiently locate essential resources—such as food, mates, or nesting sites—for survival and reproduction. Over millions of generations, natural selection has refined neural algorithms guiding these movements to ensure reliability and efficiency. My research focuses on identifying and analysing such functional movement algorithms, particularly the mechanisms underlying decision-making and spontaneous search behaviours. Specifically, I study how ring attractor neural networks can integrate spatial information, support adaptive decision-making, and generate exploratory patterns. To test and refine this theoretical framework, I conduct experiments where real ants interact with virtual environments, effectively playing video games designed to probe their spatial decision-making processes.",
+        "bio": "August Paula is a researcher at the Department of Collective Behavior, Max Planck Institute of Animal Behavior and the University of Konstanz. His research explores emergent patterns in animal movement by developing virtual reality systems for insects and computer vision algorithms for wildlife videography.",
         "location": "Z8 Kitchen"
     },
     {
-        "id": "seminar6",
+        "id": "seminar7",
         "title": "Energetic benefits of social information use for movement decisions in soaring flight.",
         "date": "2025-05-21",
         "time": "11:30 - 12:15",
         "speaker": "Eleonora Gatti",
         "topic": "Energetic benefits of social information use for movement decisions in soaring flight.",
         "image": "images/eleonora.jpeg",
-        "abstract": "To be added...",
-        "bio": "To be added...",
+        "abstract": "Animal movement is essential for survival, allowing individuals to find food, mates, and avoid predators. Soaring birds depend on updrafts of air to reduce energy costs, but these resources are patchy and unpredictable. We use an Agent-Based Model to examine how social information influences movement efficiency in collective soaring flight by reducing uncertainty about resource availability. Our model simulates agents navigating a dynamic energy landscape through glide-soar movement. We assess how social reliance and risk-taking behavior interact with environmental predictability to shape movement performance in terms of energetic costs. In the talk, I will present our model, show some results, and share a few cool condor pictures from our field trip in Argentina.",
+        "bio": "Eleonora Gatti is a PhD student at the University of Konstanz in the Move.in.Formation group, studying optimal movement in soaring flight. After studying Physics at the University of Milan, she completed her master's thesis in the Department of Collective Behavior, where she worked on models of collective decision making.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar8",
+        "title": "Swarm ro-bat-ics: a robotic platform to understand the behaviour of echolocating bats.",
+        "date": "2025-05-28",
+        "time": "14:30 - 15:15",
+        "speaker": "Gabriele Baroli",
+        "topic": "Swarm ro-bat-ics: a robotic platform to understand the behaviour of echolocating bats",
+        "image": "images/gabrielle.jpg",
+        "abstract": "In an effort to better understand how large groups of bats can achieve collective motion relying only on echolocation in extremely complex acoustic scenarios, the Ro-Bat platform was ideated and realized. After the successful implementation of a robot capable of passive echolocation, the necessary following step was to give the very same robot the facilities to echolocate by actively emitting loud ultrasonic calls and processing their echoes, just as bats and other animal species do continuously to move in their surroundings. For this reason several pieces of equipment were developed, such as a suitable audio source and a microphone array intended intended to work at ultrasonic frequencies, together with a signal processing chain apt to emulate the behaviour of an echolocating bat on the move. The system built was then characterized regarding its acoustic performances, and its obstacle avoidance behaviour was tested. Having reached a satisfying prototype, this platform will be replicated in the near future to put to test multiple robots echolocating together, to test a multitude of variables which can influence the achievement of a successful acoustically mediated collective movement.",
+        "bio": "Gabriele Baroli earned his B.Sc. in Engineering of Computing Systems from the Polytechnic University of Milan in 2022. He is currently completing his M.Sc. in Music and Acoustic Engineering at the same university, working on his thesis at the University of Konstanz. His research is hosted by the Centre for the Advanced Study of Collective Behaviour and co-supervised by Andreagiovanni Reina (GIO-Lab) and Thejasvi Beleyur (Active Sensing Collectives).",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar9",
+        "title": "Making insects play video games.",
+        "date": "2025-06-04",
+        "time": "11:30 - 12:15",
+        "speaker": "Pavan Kaushik",
+        "topic": "Making insects play video games.",
+        "image": "images/pavan.jpg",
+        "abstract": "To be added.",
+        "bio": "To be added.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar10",
+        "title": "Emergent orchestra: a framework for bio-inspired musical robot swarms.",
+        "date": "2025-06-11",
+        "time": "11:30 - 12:15",
+        "speaker": "Pierluigi Tartabini",
+        "topic": "Emergent orchestra: a framework for bio-inspired musical robot swarms.",
+        "image": "images/pierluigi.jpg",
+        "abstract": "Can music emerge from a swarm of robots, each playing a single note and coordinating with the others? This project drives an exploration of music as a complex system, where rhythm, harmony, and structure arise from local interactions rather than centralized control. Drawing inspiration from musical ensembles and group synchronization, a bio-inspired framework is presented to reproduce a self-organized swarm of robots that  behaves like a conductorless orchestra. Through minimal communication and distributed rules, the system reveals how musical patterns and collective creativity can emerge from simple, coordinated behaviors.",
+        "bio": "Pierluigi Tartabini is a Master’s student at Politecnico di Milano, currently conducting his thesis research at the Centre for the Advanced Study of Collective Behaviour in Konstanz, under the supervision of Andreagiovanni Reina and Lluc Bono Rosselló.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar11",
+        "title": "Securing Collaborative SLAM with Blockchain: A Trustworthy Approach to Multi-Robot Mapping.",
+        "date": "2025-06-18",
+        "time": "11:30 - 12:15",
+        "speaker": "Iacopo Fornai",
+        "topic": "Securing Collaborative SLAM with Blockchain: A Trustworthy Approach to Multi-Robot Mapping",
+        "image": "images/iacopo.jpg",
+        "abstract": "SLAM (Simultaneous Localization and Mapping) is a fundamental topic in robotics, enabling one or more robots to create a map of their environment and localize themselves within it. My research focuses on securing Swarm-SLAM, a state-of-the-art collaborative SLAM system, against malicious or faulty robots that may inject false information, potentially leading to corrupted maps or inaccurate pose estimations. This is achieved by leveraging blockchain technology—a decentralized and tamper-resistant digital ledger that guarantees data integrity and trustworthiness.",
+        "bio": "Iacopo Fornai is a student of Automation and Control Engineering at Politecnico di Milano, currently pursuing his master’s thesis at the University of Konstanz under the supervision of Andreagiovanni Reina and Alexandre Pacheco.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar12",
+        "title": "Early Thoughts on Robot Control and Interaction.",
+        "date": "2025-06-25",
+        "time": "11:30 - 12:15",
+        "speaker": "Bosco Román",
+        "topic": "Early Thoughts on Robot Control and Interaction.",
+        "image": "images/bosco.jpg",
+        "abstract": "Robot swarms offer innovative solutions to modern challenges like large-area rescue and fire control. To scale without overwhelming communication channels, they must operate in a decentralized manner, relying on local interactions to achieve global goals. This raises a key question: what are the global effects of local errors, such as distance mismatches or data dropouts? Indeed, minor issues can escalate, leading to unintended and potentially harmful emergent behaviours. In this seminar, we’ll explore how to understand and potentially harness these, in principle unintended, emergent behaviours to improve swarm performance.",
+        "bio": "Bosco Román earned his B.Sc. in Physics from the Complutense University of Madrid in 2024. He is currently working as a research assistant in the Swarm Systems Lab (ERC grant) at the University of Granada. His research is hosted by the Institute of Mathematics of Granada and supervised by Héctor García de Marina.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar13",
+        "title": "Understanding Human Actions by Skipping Through Old YouTube.",
+        "date": "2025-07-02",
+        "time": "11:30 - 12:15",
+        "speaker": "Ulas Sureyya Bingöl",
+        "topic": "Understanding Human Actions by Skipping Through Old YouTube.",
+        "image": "images/ulas.jpg",
+        "abstract": "Understanding Human Actions by Skipping Through Old YouTube Based on CONCUR: Contrastive Observation Network with Cross-Video Understanding and Retrieval. We work on recognizing and localizing human actions in long, untrimmed videos—like the kind you’d randomly find on old YouTube. This is tricky when only the overall action label is known, without any info on when it happens. Our method, CONCUR, improves learning from such weak labels by comparing snippets both within the same video and across different ones. By aligning similar segments between videos and filtering out irrelevant parts, we help the model better understand where actions really occur. Tested on the THUMOS14 dataset, CONCUR outperforms existing methods by making smarter use of both temporal structure and video relationships.",
+        "bio": "Ulas Bingöl earned a Master’s degree in Electrical and Electronics Engineering from Middle East Technical University, Turkey, in 2022. During his master's studies, he worked in robotics perception - localization while working as a software lead in an international logistics robotics company. After completing his degree, he continued working in the industry before transitioning to academia. He is currently pursuing a PhD in Computer Science at the University of Konstanz, where his research focuses on computer vision and deep learning.",
         "location": "Z8 Kitchen"
     }
+    
 ]
