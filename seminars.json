@@ -154,6 +154,30 @@
         "abstract": "Understanding Human Actions by Skipping Through Old YouTube Based on CONCUR: Contrastive Observation Network with Cross-Video Understanding and Retrieval. We work on recognizing and localizing human actions in long, untrimmed videos—like the kind you’d randomly find on old YouTube. This is tricky when only the overall action label is known, without any info on when it happens. Our method, CONCUR, improves learning from such weak labels by comparing snippets both within the same video and across different ones. By aligning similar segments between videos and filtering out irrelevant parts, we help the model better understand where actions really occur. Tested on the THUMOS14 dataset, CONCUR outperforms existing methods by making smarter use of both temporal structure and video relationships.",
         "bio": "Ulas Bingöl earned a Master’s degree in Electrical and Electronics Engineering from Middle East Technical University, Turkey, in 2022. During his master's studies, he worked in robotics perception - localization while working as a software lead in an international logistics robotics company. After completing his degree, he continued working in the industry before transitioning to academia. He is currently pursuing a PhD in Computer Science at the University of Konstanz, where his research focuses on computer vision and deep learning.",
         "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar14",
+        "title": "Automated Phytosensing: Ozone Exposure Classification Based on Plant Electrical Signals.",
+        "date": "2025-03-12",
+        "time": "13:15 - 13:35",
+        "speaker": "Till Aust",
+        "topic": "Automated Phytosensing: Ozone Exposure Classification Based on Plant Electrical Signals",
+        "image": "",
+        "abstract": "In the WatchPlant project, we explore the potential of using a decentralized network of living plants as air-quality sensors by analyzing their electrophysiological responses—a concept known as phytosensing. We conducted in-lab experiments in which we expose ivy (Hedera helix) plants to ozone, an important pollutant to monitor, and measured their electrophysiological response. Because there is no well established automated way of detecting ozone exposure in plants, we propose a generic automatic toolchain that selects a high-performance subset of features and highly accurate models for plant electrophysiology. This approach derives plantand stimulus-generic features from the electrophysiological signal using the tsfresh library. Based on these features, we automatically select and optimize machine learning models using naive AutoML. We use forward feature selection to increase model performance. We show that our approach successfully classifies plant ozone exposure with accuracies of up to 94.6% on unseen data. We also show that our approach can be used for other plant species and stimuli. Our toolchain automates the development of monitoring algorithms for plants as pollutant monitors.",
+        "bio": "Till Aust studied Robotics and Autonomous Systems at the University of Lübeck, where he earned both his Bachelor's and Master's degrees. He then joined the Cyber-Physical Systems Group led by Prof. Heiko Hamann as a PhD student, focusing on the analysis of physiological signals in bio-hybrid systems. His research contributes to the EU-funded projects WatchPlant and ChronoPilot, where he explores methods to interpret physiological data for controlling bio-hybrid systems and enabling feedback mechanisms.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar15",
+        "title": "Automating Damage Recovery in a Legged Robot.",
+        "date": "2025-03-12",
+        "time": "13:35 - 13:55",
+        "speaker": "Sindiso Mkhatshwa",
+        "topic": "Automating Damage Recovery in a Legged Robot",
+        "image": "",
+        "abstract": "Autonomous robots are increasingly used in remote and hazardous environments, where automated recovery given damage to sensory-actuator systems would be extremely beneficial. Such robots must therefore have controllers that continue to function effectively given unexpected hardware malfunctions and damage. We evaluate various controller types (oscillator style central pattern generators and artificial neural networks), for producing adaptable gait behaviors. These controller types are run for hexapod robot gait control in concert with the Intelligent Trial and Error (IT&E) and Map-Elites algorithm to maintain behavioral diversity. Specifically, we investigate the impact of behavior map-size in MAP-Elites (the first phase of the IT&E algorithm), in company with various controller types for multiple leg failures scenarios using a simulated hexapod robot. Results support previous work demonstrating a trade-off between adapted gait speed and controller adaptability across leg-damage scenarios, where map-size is crucial for generating behavioral diversity required for adaptation.",
+        "bio": "Sindiso Mkhatshwa earned a Master's degree in Computer Science from the University of Cape Town, South Africa, in 2023. He is currently pursuing a Ph.D. in Informatik at the Centre for the Advanced Study of Collective Behavior at the University of Konstanz, Germany. His research broadly focuses on collective decision-making in robot swarms.",
+        "location": "Z8 Kitchen"
     }
     
 ]
