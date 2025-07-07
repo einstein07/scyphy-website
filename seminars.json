@@ -253,6 +253,18 @@
     },
     {
         "id": "seminar23",
+        "title": "The Geometry of Decision Making in Robotic Swarms.",
+        "date": "2024-12-11",
+        "time": "13:30 - 14:10",
+        "speaker": "Sindiso Mkhatshwa",
+        "topic": "The Geometry of Decision Making in Robotic Swarms.",
+        "image": "images/Mkhatshwa.png",
+        "abstract": "Recent research suggests that when choosing among spatially distributed options, the brain repeatedly breaks multichoice decisions into a series of binary decisions in space–time. While previous studies have utilized fruit flies, desert locusts, and larval zebrafish to explore these fundamental geometric principles, we employ swarm robotics as a testbed to investigate how and why animals exhibit specific movement patterns.",
+        "bio": "Sindiso Mkhatshwa earned a Master's degree in Computer Science from the University of Cape Town, South Africa, in 2023. He is currently pursuing a Ph.D. in Informatik at the Centre for the Advanced Study of Collective Behaviour at the University of Konstanz, Germany. His research broadly focuses on collective decision-making in robot swarms.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar24",
         "title": "Can we study how bats echolocate in swarms?",
         "date": "2024-12-05",
         "time": "13:30 - 14:10",
@@ -264,7 +276,7 @@
         "location": "Z8 Kitchen"
     },
     {
-        "id": "seminar24",
+        "id": "seminar25",
         "title": "The role of interaction networks in decision-making processes for decentralized agent-based systems.",
         "date": "2024-12-04",
         "time": "12:00 - 12:40",
@@ -274,18 +286,5 @@
         "abstract": "Quorum sensing is a fundamental mechanism that enables coordinated behavior within populations of autonomous agents and is widely studied in biological systems, from bacterial colonies to social insects. In swarm robotics, quorum sensing has attracted significant interest, primarily for implementing collective decision-making processes. This work explores the potential of leveraging quorum sensing to enable robotic swarms to adapt to dynamic environments in the context of the Best-of-N decision-making problem. The study aims to identify the most effective approach for this application, taking into consideration two widely adopted agent models in this context.",
         "bio": "Fabio Oddi earned a Master's degree in Control Engineering from Sapienza University of Rome, Italy, in 2022. He is currently pursuing a Ph.D. in Computer Science Engineering at the same institution, with his research funded by the Institute of Cognitive Sciences and Technologies of the National Research Council (ISTC-CNR). His research focuses on exploring the role of interaction networks in decision-making processes for decentralized agent-based systems.",
         "location": "Z8 Kitchen"
-    },
-    {
-        "id": "seminar25",
-        "title": "The Geometry of Decision Making in Robotic Swarms.",
-        "date": "2024-12-11",
-        "time": "13:30 - 14:10",
-        "speaker": "Sindiso Mkhatshwa",
-        "topic": "The Geometry of Decision Making in Robotic Swarms.",
-        "image": "images/Mkhatshwa.png",
-        "abstract": "Recent research suggests that when choosing among spatially distributed options, the brain repeatedly breaks multichoice decisions into a series of binary decisions in space–time. While previous studies have utilized fruit flies, desert locusts, and larval zebrafish to explore these fundamental geometric principles, we employ swarm robotics as a testbed to investigate how and why animals exhibit specific movement patterns.",
-        "bio": "Sindiso Mkhatshwa earned a Master's degree in Computer Science from the University of Cape Town, South Africa, in 2023. He is currently pursuing a Ph.D. in Informatik at the Centre for the Advanced Study of Collective Behaviour at the University of Konstanz, Germany. His research broadly focuses on collective decision-making in robot swarms.",
-        "location": "Z8 Kitchen"
     }
-    
 ]
