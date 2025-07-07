@@ -23,20 +23,9 @@ document.addEventListener("DOMContentLoaded", () => {
             });
 
             // Sort seminars by endDateTime (soonest first)
-            seminars.sort((a, b) => a.seminarEndDateTime - b.seminarEndDateTime);
+            seminars.sort((a, b) => b.seminarEndDateTime - a.seminarEndDateTime);
 
             seminars.forEach(seminar => {
-                // // Parse seminar time, use default if not provided
-                // let endTime = defaultEndTime;
-                // if (seminar.time) {
-                //     const timeMatch = seminar.time.match(/(\d{2}:\d{2})\s*-\s*(\d{2}:\d{2})/);
-                //     if (timeMatch) {
-                //         endTime = timeMatch[2]; // Extract end time (e.g., "15:00" from "14:00 - 15:00")
-                //     }
-                // }
-
-                // // Create Date object for seminar end time
-                // const seminarEndDateTime = new Date(`${seminar.date}T${endTime}:00`);
                 
                 // Seminar content (unchanged)
                 const seminarContent = `
