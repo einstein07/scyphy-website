@@ -264,18 +264,6 @@
         "location": "Z8 Kitchen"
     },
     {
-        "id": "seminar24",
-        "title": "Can we study how bats echolocate in swarms?",
-        "date": "2024-12-05",
-        "time": "13:30 - 14:10",
-        "speaker": "Alberto Doimo",
-        "topic": "Can we study how bats echolocate in swarms?",
-        "image": "images/albertodoimo.jpg",
-        "abstract": "Inspired by bats, the \"Ro-Bat\" platform uses only microphones to perceive complex, multi-source acoustic environments, providing biologists with a tool to study active localization agents like bats or robots within a swarm. This presentation will discuss the development of a passive echolocation system for autonomous swarm robots.",
-        "bio": "Alberto Doimo is a Master's student in Acoustic Engineering at Politecnico di Milano, specialised in audio signal processing and echolocation. He is also a contributor to The Sound of Bees project at CASCB, to develop a way to record the Stop signal inside beehives.",
-        "location": "Z8 Kitchen"
-    },
-    {
         "id": "seminar25",
         "title": "The role of interaction networks in decision-making processes for decentralized agent-based systems.",
         "date": "2024-12-04",
@@ -285,6 +273,18 @@
         "image": "images/fabiooddi.jpg",
         "abstract": "Quorum sensing is a fundamental mechanism that enables coordinated behavior within populations of autonomous agents and is widely studied in biological systems, from bacterial colonies to social insects. In swarm robotics, quorum sensing has attracted significant interest, primarily for implementing collective decision-making processes. This work explores the potential of leveraging quorum sensing to enable robotic swarms to adapt to dynamic environments in the context of the Best-of-N decision-making problem. The study aims to identify the most effective approach for this application, taking into consideration two widely adopted agent models in this context.",
         "bio": "Fabio Oddi earned a Master's degree in Control Engineering from Sapienza University of Rome, Italy, in 2022. He is currently pursuing a Ph.D. in Computer Science Engineering at the same institution, with his research funded by the Institute of Cognitive Sciences and Technologies of the National Research Council (ISTC-CNR). His research focuses on exploring the role of interaction networks in decision-making processes for decentralized agent-based systems.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar24",
+        "title": "Can we study how bats echolocate in swarms?",
+        "date": "2024-12-05",
+        "time": "13:30 - 14:10",
+        "speaker": "Alberto Doimo",
+        "topic": "Can we study how bats echolocate in swarms?",
+        "image": "images/albertodoimo.jpg",
+        "abstract": "Inspired by bats, the \"Ro-Bat\" platform uses only microphones to perceive complex, multi-source acoustic environments, providing biologists with a tool to study active localization agents like bats or robots within a swarm. This presentation will discuss the development of a passive echolocation system for autonomous swarm robots.",
+        "bio": "Alberto Doimo is a Master's student in Acoustic Engineering at Politecnico di Milano, specialised in audio signal processing and echolocation. He is also a contributor to The Sound of Bees project at CASCB, to develop a way to record the Stop signal inside beehives.",
         "location": "Z8 Kitchen"
     }
 ]
