@@ -286,5 +286,17 @@
         "abstract": "Quorum sensing is a fundamental mechanism that enables coordinated behavior within populations of autonomous agents and is widely studied in biological systems, from bacterial colonies to social insects. In swarm robotics, quorum sensing has attracted significant interest, primarily for implementing collective decision-making processes. This work explores the potential of leveraging quorum sensing to enable robotic swarms to adapt to dynamic environments in the context of the Best-of-N decision-making problem. The study aims to identify the most effective approach for this application, taking into consideration two widely adopted agent models in this context.",
         "bio": "Fabio Oddi earned a Master's degree in Control Engineering from Sapienza University of Rome, Italy, in 2022. He is currently pursuing a Ph.D. in Computer Science Engineering at the same institution, with his research funded by the Institute of Cognitive Sciences and Technologies of the National Research Council (ISTC-CNR). His research focuses on exploring the role of interaction networks in decision-making processes for decentralized agent-based systems.",
         "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar26",
+        "title": "The evolutionary ecology of decision-making.",
+        "date": "2025-07-09",
+        "time": "11:30 - 12:15",
+        "speaker": "Vivek Sridhar",
+        "topic": "The evolutionary ecology of decision-making.",
+        "image": "images/vivek_sridhar.jpeg",
+        "abstract": "My research uncovers fundamental algorithms by which brains interpret complex environments and make adaptive decisions, bridging neural, individual, and collective levels of organization. In today’s seminar, I will talk about my past work studying how animals choose among spatially distributed options. Combining theory and high-throughput experiments in virtual reality systems, I showed that brains handle environmental complexity by breaking down multi-choice decisions to sequential binary decisions. I’m now transporting these insights from the lab to the field, where I study how the spatial configuration and geometry of male territories influences female mate-choice in blackbuck (Antilope cervicapra), an antelope endemic to the Indian subcontinent.",
+        "bio": "Vivek is an Assistant Professor at the University of Washington and an affiliate researcher at the Max Planck Institute of Animal Behavior. His research explores the fundamental principles underlying spatiotemporal computation in biology, with a particular focus on the mechanisms driving animal movement, navigation, and decision-making. As a mixed-media artist and alumnus of the »Field Trip« residency in Akademie Schloss Solitude, he also collaborates with artists to offer distinct perspectives on science and the natural world.",
+        "location": "Z8 Kitchen"
     }
 ]
