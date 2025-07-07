@@ -1,0 +1,25 @@
+name: Deploy to Giovanni FTP
+
+on:
+  push:
+    branches:
+      - main  # when push to main branch
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
+    - name: Upload to FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4
+      with:
+        server: ftp.giovannireina.com
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: /www.giovannireina.com/scyphy
+        exclude: |
+          **/.git*
+          **/.git*/**
