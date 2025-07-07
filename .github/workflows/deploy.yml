@@ -19,7 +19,7 @@ jobs:
         server: ftp.giovannireina.com
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: /www.giovannireina.com/scyphy
+        server-dir: /www.giovannireina.com/scyphy/
         exclude: |
           **/.git*
           **/.git*/**
