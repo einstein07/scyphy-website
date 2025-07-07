@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch("seminars.json")
         .then(response => response.json())
         .then(seminars => {
+            // Default seminar times if not specified
+            const defaultStartTime = "11:30";
+            const defaultEndTime = "12:15";
+            // Ensure seminars are sorted by date
             seminars.forEach(seminar => {
-                // Default seminar times if not specified
-                const defaultStartTime = "11:30";
-                const defaultEndTime = "12:15";
-                
                 // Parse seminar time, use default if not provided
                 let endTime = defaultEndTime;
                 if (seminar.time) {
@@ -19,9 +19,24 @@ document.addEventListener("DOMContentLoaded", () => {
                         endTime = timeMatch[2]; // Extract end time (e.g., "15:00" from "14:00 - 15:00")
                     }
                 }
+                seminar.seminarEndDateTime = new Date(`${seminar.date}T${endTime}:00`);
+            });
 
-                // Create Date object for seminar end time
-                const seminarEndDateTime = new Date(`${seminar.date}T${endTime}:00`);
+            // Sort seminars by endDateTime (soonest first)
+            seminars.sort((a, b) => a.seminarEndDateTime - b.seminarEndDateTime);
+
+            seminars.forEach(seminar => {
+                // // Parse seminar time, use default if not provided
+                // let endTime = defaultEndTime;
+                // if (seminar.time) {
+                //     const timeMatch = seminar.time.match(/(\d{2}:\d{2})\s*-\s*(\d{2}:\d{2})/);
+                //     if (timeMatch) {
+                //         endTime = timeMatch[2]; // Extract end time (e.g., "15:00" from "14:00 - 15:00")
+                //     }
+                // }
+
+                // // Create Date object for seminar end time
+                // const seminarEndDateTime = new Date(`${seminar.date}T${endTime}:00`);
                 
                 // Seminar content (unchanged)
                 const seminarContent = `
@@ -45,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 `;
 
                 // Compare seminar end time to current date and time
-                if (seminarEndDateTime < currentDateTime) {
+                if (seminar.seminarEndDateTime < currentDateTime) {
                     pastList.innerHTML += seminarElement;
                 } else {
                     upcomingList.innerHTML += seminarElement;
