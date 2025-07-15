@@ -314,7 +314,7 @@
     {
         "id": "seminar28",
         "title": "TBA",
-        "date": "2025-07-30",
+        "date": "2025-08-20",
         "time": "11:30 - 12:15",
         "speaker": "Maya Dagher",
         "topic": "TBA",
@@ -338,11 +338,11 @@
     {
         "id": "seminar31",
         "title": "From Soft Robotics to Swarming Fish: Bio-Inspired Robotic Design",
-        "date": "2025-08-13",
+        "date": "2025-07-30",
         "time": "11:30 - 12:15",
         "speaker": "Hun Jang",
         "topic": "From Soft Robotics to Swarming Fish: Bio-Inspired Robotic Design",
-        "image": "images/placeholder_chatgpt.png",
+        "image": "images/Hun_Jang.png",
         "abstract": "My research has primarily focused on the mechanical design of robots, especially soft robotics. During my master’s program, I developed wearable tactile sensors capable of recognizing surface textures, which were integrated into a full-body humanoid system and presented at the ANA Avatar XPRIZE 2022 competition. I later extended my work to soft gripper systems, leveraging the inherent compliance of soft materials to enable both effective and safe grasping.",
         "bio": "Hun Jang worked at AIRO, Inc., where he contributed to the mechanical design of bio-inspired robotic fish. This experience deepened his interest in understanding aquatic locomotion and the complex relationship between robots and living animals. Motivated by the interplay between biology and engineering, he have recently joined the research group led by Dr. Liang Li and Prof. Dr. Iain Couzin, where he aims to investigate marine animal's collective behaviour by utilizing robotic system. His research will explore both the underlying beauty and functional aspects of collective animal behavior through experimental studies and bio-inspired design with robotic system.",
         "location": "Z8 Kitchen"
