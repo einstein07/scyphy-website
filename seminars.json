@@ -298,5 +298,65 @@
         "abstract": "My research uncovers fundamental algorithms by which brains interpret complex environments and make adaptive decisions, bridging neural, individual, and collective levels of organization. In today’s seminar, I will talk about my past work studying how animals choose among spatially distributed options. Combining theory and high-throughput experiments in virtual reality systems, I showed that brains handle environmental complexity by breaking down multi-choice decisions to sequential binary decisions. I’m now transporting these insights from the lab to the field, where I study how the spatial configuration and geometry of male territories influences female mate-choice in blackbuck (Antilope cervicapra), an antelope endemic to the Indian subcontinent.",
         "bio": "Vivek is an Assistant Professor at the University of Washington and an affiliate researcher at the Max Planck Institute of Animal Behavior. His research explores the fundamental principles underlying spatiotemporal computation in biology, with a particular focus on the mechanisms driving animal movement, navigation, and decision-making. As a mixed-media artist and alumnus of the »Field Trip« residency in Akademie Schloss Solitude, he also collaborates with artists to offer distinct perspectives on science and the natural world.",
         "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar27",
+        "title": "TBA",
+        "date": "2025-07-16",
+        "time": "11:30 - 12:15",
+        "speaker": "Ruiheng Wu",
+        "topic": "TBA",
+        "image": "images/placeholder_chatgpt.png",
+        "abstract": "TBA",
+        "bio": "TBA",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar29",
+        "title": "Seeing more by seeing less: uninformed individuals can enhance collective sensing of dynamic environments.",
+        "date": "2025-07-23",
+        "time": "10:45 - 12:15",
+        "speaker": "Mohammad Nomaan Husain",
+        "topic": "Seeing more by seeing less: uninformed individuals can enhance collective sensing of dynamic environments.",
+        "image": "images/nomaan.jpeg",
+        "abstract": "We studied how heterogeneous swarms, composed of both informed and uninformed robots, can collectively solve the best-of-n decision-making problem in dynamic and noisy environments. Inspired by the biological systems, our model explores how uninformed robots, which cannot make environmental observations and rely solely on social information from their neighbours, influence group consensus. We find that under specific noise conditions, the inclusion of uninformed robots improves swarm performance, though this often comes at the tradeoff of slower coherence. These findings highlight the importance of heterogeneity to improve performance in collective decision-making and the tradeoffs that come with it.",
+        "bio": "Mohammad Nomaan Husain is a master’s student in Computer and Information Science at the University of Konstanz, currently completing his thesis under the supervision of Andreagiovanni Reina. His interest in swarm behavior began through advanced courses on swarm robotics and collective behavior taught by Prof. Heiko Hamann, as well as a seminar on heterogeneous swarms of voter and majority-rule robots employing cross-inhibition. His thesis continues this line of research, using swarm robotics to investigate mechanisms of collective behavior.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar28",
+        "title": "TBA",
+        "date": "2025-07-30",
+        "time": "11:30 - 12:15",
+        "speaker": "Maya Dagher",
+        "topic": "TBA",
+        "image": "images/maya_dagher.webp",
+        "abstract": "TBA",
+        "bio": "TBA",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar30",
+        "title": "Where Seeing Is Believing: Enabling Humans to Read the Rules Behind Swarm Behaviour.",
+        "date": "2025-08-06",
+        "time": "11:30 - 12:15",
+        "speaker": "Khulud Alharthi",
+        "topic": "Where Seeing Is Believing: Enabling Humans to Read the Rules Behind Swarm Behaviour.",
+        "image": "images/placeholder_chatgpt.png",
+        "abstract": "TBA",
+        "bio": "TBA",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar31",
+        "title": "TBA",
+        "date": "2025-08-13",
+        "time": "11:30 - 12:15",
+        "speaker": "Hun Jang",
+        "topic": "TBA",
+        "image": "images/placeholder_chatgpt.png",
+        "abstract": "TBA",
+        "bio": "TBA",
+        "location": "Z8 Kitchen"
     }
 ]
