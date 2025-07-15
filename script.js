@@ -22,12 +22,15 @@ document.addEventListener("DOMContentLoaded", () => {
                 seminar.seminarEndDateTime = new Date(`${seminar.date}T${endTime}:00`);
             });
 
-            // Sort seminars by endDateTime (soonest first)
-            seminars.sort((a, b) => b.seminarEndDateTime - a.seminarEndDateTime);
+            const pastSeminars = seminars
+                .filter(seminar => seminar.seminarEndDateTime < currentDateTime)
+                .sort((a, b) => b.seminarEndDateTime - a.seminarEndDateTime); // latest past first
 
-            seminars.forEach(seminar => {
-                
-                // Seminar content (unchanged)
+            const upcomingSeminars = seminars
+                .filter(seminar => seminar.seminarEndDateTime >= currentDateTime)
+                .sort((a, b) => a.seminarEndDateTime - b.seminarEndDateTime); // soonest upcoming first
+
+            [...pastSeminars, ...upcomingSeminars].forEach(seminar => {
                 const seminarContent = `
                     <article class="seminar">
                         <img src="${seminar.image}" alt="${seminar.speaker}" class="speaker-image">
@@ -41,14 +44,12 @@ document.addEventListener("DOMContentLoaded", () => {
                     </article>
                 `;
 
-                // Both upcoming and past seminars are clickable
                 const seminarElement = `
                     <a href="seminar.html?id=${seminar.id}" class="seminar-link">
                         ${seminarContent}
                     </a>
                 `;
 
-                // Compare seminar end time to current date and time
                 if (seminar.seminarEndDateTime < currentDateTime) {
                     pastList.innerHTML += seminarElement;
                 } else {

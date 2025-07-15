@@ -313,11 +313,11 @@
     },
     {
         "id": "seminar29",
-        "title": "Seeing more by seeing less: uninformed individuals can enhance collective sensing of dynamic environments.",
+        "title": "Seeing more by seeing less: uninformed individuals can enhance collective sensing of dynamic environments. [Long Seminar]",
         "date": "2025-07-23",
         "time": "10:45 - 12:15",
         "speaker": "Mohammad Nomaan Husain",
-        "topic": "Seeing more by seeing less: uninformed individuals can enhance collective sensing of dynamic environments.",
+        "topic": "Seeing more by seeing less: uninformed individuals can enhance collective sensing of dynamic environments. [Long Seminar]",
         "image": "images/nomaan.jpeg",
         "abstract": "We studied how heterogeneous swarms, composed of both informed and uninformed robots, can collectively solve the best-of-n decision-making problem in dynamic and noisy environments. Inspired by the biological systems, our model explores how uninformed robots, which cannot make environmental observations and rely solely on social information from their neighbours, influence group consensus. We find that under specific noise conditions, the inclusion of uninformed robots improves swarm performance, though this often comes at the tradeoff of slower coherence. These findings highlight the importance of heterogeneity to improve performance in collective decision-making and the tradeoffs that come with it.",
         "bio": "Mohammad Nomaan Husain is a master’s student in Computer and Information Science at the University of Konstanz, currently completing his thesis under the supervision of Andreagiovanni Reina. His interest in swarm behavior began through advanced courses on swarm robotics and collective behavior taught by Prof. Heiko Hamann, as well as a seminar on heterogeneous swarms of voter and majority-rule robots employing cross-inhibition. His thesis continues this line of research, using swarm robotics to investigate mechanisms of collective behavior.",
