@@ -312,7 +312,55 @@
         "location": "Z8 Kitchen"
     },
     {
-        "id": "seminar28",
+        "id": "seminar30",
+        "title": "From Soft Robotics to Swarming Fish: Bio-Inspired Robotic Design",
+        "date": "2025-07-30",
+        "time": "11:30 - 12:15",
+        "speaker": "Hun Jang",
+        "topic": "From Soft Robotics to Swarming Fish: Bio-Inspired Robotic Design",
+        "image": "images/Hun_Jang.png",
+        "abstract": "My research has primarily focused on the mechanical design of robots, especially soft robotics. During my master’s program, I developed wearable tactile sensors capable of recognizing surface textures, which were integrated into a full-body humanoid system and presented at the ANA Avatar XPRIZE 2022 competition. I later extended my work to soft gripper systems, leveraging the inherent compliance of soft materials to enable both effective and safe grasping.",
+        "bio": "Hun Jang worked at AIRO, Inc., where he contributed to the mechanical design of bio-inspired robotic fish. This experience deepened his interest in understanding aquatic locomotion and the complex relationship between robots and living animals. Motivated by the interplay between biology and engineering, he have recently joined the research group led by Dr. Liang Li and Prof. Dr. Iain Couzin, where he aims to investigate marine animal's collective behaviour by utilizing robotic system. His research will explore both the underlying beauty and functional aspects of collective animal behavior through experimental studies and bio-inspired design with robotic system.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar31",
+        "title": "Where Seeing Is Believing: Enabling Humans to Read the Rules Behind Swarm Behaviour.",
+        "date": "2025-08-06",
+        "time": "11:30 - 12:15",
+        "speaker": "Khulud Alharthi",
+        "topic": "Where Seeing Is Believing: Enabling Humans to Read the Rules Behind Swarm Behaviour.",
+        "image": "images/khulud_alharthi.jpg",
+        "abstract": "Swarm systems exhibit complex behaviour that emerges from simple local interactions, yet deciphering these underlying rules remains a challenging task. This talk presents a method that extracts human-readable behaviour tree controllers directly from video demonstrations of swarm behaviours. By bridging the gap between emergent collective behaviour and local agent rules, this approach empowers engineers to design and control swarm systems while providing biologists with automatic ways to generate testable hypotheses from observed natural swarms. From simulated robots and real robots to ant colonies, we elevate \"seeing\" swarm behaviour to reveal deeper insights and facilitate practical design and control.",
+        "bio": "Khulud Alharthi holds a Master’s degree in Computer Science and earned her PhD in Swarm Robotics from the University of Bristol, where she conducted research in the Hauert Lab. She is currently a postdoctoral researcher at the University of Bristol’s Data Science Lab. Following her postdoctoral work at the University of Bristol, she will return to Saudi Arabia to take up her role as Assistant Professor in the Department of Computer Science at Taif University.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar32",
+        "title": "Boat vs. Duck: A Multimodal Approach to Obstacle Detection",
+        "date": "2025-08-13",
+        "time": "11:30 - 11:37",
+        "speaker": "Margaret Lee",
+        "topic": "Boat vs. Duck: A Multimodal Approach to Obstacle Detection",
+        "image": "images/margaret_lee.jpg",
+        "abstract": "TBA",
+        "bio": "TBA",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar33",
+        "title": "Using Plants as Sensors",
+        "date": "2025-08-13",
+        "time": "11:38 - 12:15",
+        "speaker": "Leon Katsnelson",
+        "topic": "Using Plants as Sensors",
+        "image": "images/leon_katsnelson.jpeg",
+        "abstract": "TBA",
+        "bio": "TBA",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar34",
         "title": "TBA",
         "date": "2025-08-20",
         "time": "11:30 - 12:15",
@@ -324,27 +372,15 @@
         "location": "Z8 Kitchen"
     },
     {
-        "id": "seminar30",
-        "title": "Where Seeing Is Believing: Enabling Humans to Read the Rules Behind Swarm Behaviour.",
-        "date": "2025-08-06",
+        "id": "seminar35",
+        "title": "Obstacle-Aware Shepherding of Non-Cohesive Agents Via Local Control Rules",
+        "date": "2025-08-27",
         "time": "11:30 - 12:15",
-        "speaker": "Khulud Alharthi",
-        "topic": "Where Seeing Is Believing: Enabling Humans to Read the Rules Behind Swarm Behaviour.",
-        "image": "images/placeholder_chatgpt.png",
+        "speaker": "Cinzia Tomaselli",
+        "topic": "Obstacle-Aware Shepherding of Non-Cohesive Agents Via Local Control Rules",
+        "image": "images/cinzia_tomaselli.jpg",
         "abstract": "TBA",
         "bio": "TBA",
-        "location": "Z8 Kitchen"
-    },
-    {
-        "id": "seminar31",
-        "title": "From Soft Robotics to Swarming Fish: Bio-Inspired Robotic Design",
-        "date": "2025-07-30",
-        "time": "11:30 - 12:15",
-        "speaker": "Hun Jang",
-        "topic": "From Soft Robotics to Swarming Fish: Bio-Inspired Robotic Design",
-        "image": "images/Hun_Jang.png",
-        "abstract": "My research has primarily focused on the mechanical design of robots, especially soft robotics. During my master’s program, I developed wearable tactile sensors capable of recognizing surface textures, which were integrated into a full-body humanoid system and presented at the ANA Avatar XPRIZE 2022 competition. I later extended my work to soft gripper systems, leveraging the inherent compliance of soft materials to enable both effective and safe grasping.",
-        "bio": "Hun Jang worked at AIRO, Inc., where he contributed to the mechanical design of bio-inspired robotic fish. This experience deepened his interest in understanding aquatic locomotion and the complex relationship between robots and living animals. Motivated by the interplay between biology and engineering, he have recently joined the research group led by Dr. Liang Li and Prof. Dr. Iain Couzin, where he aims to investigate marine animal's collective behaviour by utilizing robotic system. His research will explore both the underlying beauty and functional aspects of collective animal behavior through experimental studies and bio-inspired design with robotic system.",
         "location": "Z8 Kitchen"
     }
 ]
