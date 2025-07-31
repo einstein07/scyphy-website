@@ -379,8 +379,8 @@
         "speaker": "Cinzia Tomaselli",
         "topic": "Obstacle-Aware Shepherding of Non-Cohesive Agents Via Local Control Rules",
         "image": "images/cinzia_tomaselli.jpg",
-        "abstract": "TBA",
-        "bio": "TBA",
+        "abstract": "We present a reactive control strategy for herding non-cohesive agents toward a goal region in obstacle-rich environments. Unlike traditional flocking-based approaches that assume cohesive group behavior, our method addresses scenarios where targets do not naturally coordinate with each other. The control strategy uses reactive components that enable herders to simultaneously navigate around static convex obstacles and guide individual targets toward the goal while maintaining collision avoidance. By eliminating the need for global path planning, our approach offers computational efficiency and real-time adaptability. Simulation results demonstrate superior performance compared to traditional flocking-based methods in cluttered environments, particularly when targets exhibit non-cohesive behavior, indicating strong potential for deployment in complex real-world scenarios.",
+        "bio": "Cinzia Tomaselli received her Bachelor's degree in Electronic Engineering and her Master's degree in Automation Engineering and Control of Complex Systems from the University of Catania, Italy, in 2019 and 2021, respectively. She obtained her Ph.D. in Systems, Energy, Computer, and Telecommunications Engineering from the same university in 2024, under the supervision of Prof. Mattia Frasca and Prof. Lucia Valentina Gambuzza. She is currently a postdoctoral researcher at the Scuola Superiore Meridionale in Naples, Italy, working under the supervision of Prof. Mario Di Bernardo. Her research interests include the analysis and control of multi-agent systems, with a focus on collective behaviors shaped by interaction networks, as well as active control strategies such as shepherding, with applications in swarm robotics.",
         "location": "Z8 Kitchen"
     }
 ]
