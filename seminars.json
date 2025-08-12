@@ -343,8 +343,8 @@
         "speaker": "Margaret Lee",
         "topic": "Boat vs. Duck: A Multimodal Approach to Obstacle Detection",
         "image": "images/margaret_lee.jpg",
-        "abstract": "TBA",
-        "bio": "TBA",
+        "abstract": "Most autonomous sailboats don’t have dedicated obstacle avoidance systems. For autonomous research data collection in an environment as busy as Lake Constance, we feel that obstacle avoidance is essential to protect the swarm of sailboat robots as well as others on the water. This talk presents an approach to detecting and avoiding boats, people, piers, and, yes, ducks in every condition the vessels might encounter during a week-long research mission. The system fuses thermal imaging, RGB video, and mmWave radar into a single integrated module, tested in a variety of weather conditions both day and night, that can flag sail headings that could lead to a collision.",
+        "bio": "Margaret Lee is earning a BASc in Engineering Physics at the University of British Columbia in Vancouver, Canada. She got her start in robotics building autonomous sailboats at her university and has been pursuing robotics projects ever since. She is currently hosted at the University of Konstanz through the DAAD RISE program under her supervisor, Pranav Kedia.",
         "location": "Z8 Kitchen"
     },
     {
@@ -355,8 +355,8 @@
         "speaker": "Leon Katsnelson",
         "topic": "Using Plants as Sensors",
         "image": "images/leon_katsnelson.jpeg",
-        "abstract": "TBA",
-        "bio": "TBA",
+        "abstract": "Plants react dynamically to their environment. Changes in temperature, light, and much more trigger action potentials, which can be measured and used to infer information about a plants' surroundings. Following up on work from the pan-European Watchplant project, I worked on identifying temperature conditions given voltage readings from tomato plants, using various machine learning methods.",
+        "bio": "Leon Katsnelson is studying towards his Bachelor's degree in Computer Engineering at the University of Manitoba, in Canada. He is currently working with Eduard Buss at the Cyber-Physical Systems lab at the University of Konstanz on connecting plant biosignals to the impulses that provoke them, with funding support from DAAD.",
         "location": "Z8 Kitchen"
     },
     {
@@ -367,8 +367,8 @@
         "speaker": "Maya Dagher",
         "topic": "TBA",
         "image": "images/maya_dagher.webp",
-        "abstract": "TBA",
-        "bio": "TBA",
+        "abstract": "Ring attractors are neural circuit motifs that encode continuous variables such as heading direction, with growing evidence supporting their role in flexible decision-making. I’ll be talking about some simulation and mean-field based approaches to exploring the effects of learning in ring attractor networks over distinct time-scales - from rapid, short-term adaptation to slower, experience-dependent reconfiguration. I’ll also be discussing some information theoretic methods I am employing to infer the angular structure of social influence in swarms. This work aims to use trajectory data of animal collectives to directly analyze the macro-scale effects of ring attractor-driven individual navigation strategies.",
+        "bio": "Maya Dagher is a doctoral student in the International Max Planck Research School for Quantitative Behaviour, Ecology, and Evolution. She studied physics at McGill University and her research interests are the role of plasticity in decision-making and finding links to these decision algorithms in the structure of animal collectives.",
         "location": "Z8 Kitchen"
     },
     {
