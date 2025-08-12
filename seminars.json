@@ -361,11 +361,11 @@
     },
     {
         "id": "seminar34",
-        "title": "TBA",
+        "title": "Plasticity in decision-making across space and time",
         "date": "2025-08-20",
         "time": "11:30 - 12:15",
         "speaker": "Maya Dagher",
-        "topic": "TBA",
+        "topic": "Plasticity in decision-making across space and time",
         "image": "images/maya_dagher.webp",
         "abstract": "Ring attractors are neural circuit motifs that encode continuous variables such as heading direction, with growing evidence supporting their role in flexible decision-making. I’ll be talking about some simulation and mean-field based approaches to exploring the effects of learning in ring attractor networks over distinct time-scales - from rapid, short-term adaptation to slower, experience-dependent reconfiguration. I’ll also be discussing some information theoretic methods I am employing to infer the angular structure of social influence in swarms. This work aims to use trajectory data of animal collectives to directly analyze the macro-scale effects of ring attractor-driven individual navigation strategies.",
         "bio": "Maya Dagher is a doctoral student in the International Max Planck Research School for Quantitative Behaviour, Ecology, and Evolution. She studied physics at McGill University and her research interests are the role of plasticity in decision-making and finding links to these decision algorithms in the structure of animal collectives.",
