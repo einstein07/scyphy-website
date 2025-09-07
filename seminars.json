@@ -382,5 +382,65 @@
         "abstract": "We present a reactive control strategy for herding non-cohesive agents toward a goal region in obstacle-rich environments. Unlike traditional flocking-based approaches that assume cohesive group behavior, our method addresses scenarios where targets do not naturally coordinate with each other. The control strategy uses reactive components that enable herders to simultaneously navigate around static convex obstacles and guide individual targets toward the goal while maintaining collision avoidance. By eliminating the need for global path planning, our approach offers computational efficiency and real-time adaptability. Simulation results demonstrate superior performance compared to traditional flocking-based methods in cluttered environments, particularly when targets exhibit non-cohesive behavior, indicating strong potential for deployment in complex real-world scenarios.",
         "bio": "Cinzia Tomaselli received her Bachelor's degree in Electronic Engineering and her Master's degree in Automation Engineering and Control of Complex Systems from the University of Catania, Italy, in 2019 and 2021, respectively. She obtained her Ph.D. in Systems, Energy, Computer, and Telecommunications Engineering from the same university in 2024, under the supervision of Prof. Mattia Frasca and Prof. Lucia Valentina Gambuzza. She is currently a postdoctoral researcher at the Scuola Superiore Meridionale in Naples, Italy, working under the supervision of Prof. Mario Di Bernardo. Her research interests include the analysis and control of multi-agent systems, with a focus on collective behaviors shaped by interaction networks, as well as active control strategies such as shepherding, with applications in swarm robotics.",
         "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar36",
+        "title": "TBD",
+        "date": "2025-09-10",
+        "time": "11:30 - 12:15",
+        "speaker": "Raj Ammu",
+        "topic": "TBD",
+        "image": "images/placeholder_chatgpt.png",
+        "abstract": "TBD",
+        "bio": "TBD",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar37",
+        "title": "End to end vision-based swarm robot control",
+        "date": "2025-09-17",
+        "time": "11:30 - 12:15",
+        "speaker": "Ruiheng Wu",
+        "topic": "End to end vision-based swarm robot control",
+        "image": "images/ruiheng_wu.jpeg",
+        "abstract": "TBD",
+        "bio": "TBD",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar38",
+        "title": "Decoding Collective Migration with Information Theory",
+        "date": "2025-09-24",
+        "time": "11:30 - 12:15",
+        "speaker": "Udoy Basak",
+        "topic": "Decoding Collective Migration with Information Theory",
+        "image": "images/udoy_basak.jpeg",
+        "abstract": "TBD",
+        "bio": "I am investigating the collective movement of locusts using individual tracking of agents and incorporating information theory to infer different causal interactions that constitute the collective migration of locusts. In another approach, I also use the Eulerian framework, specifically Particle Image Velocimetry (PIV), to describe the macroscopic flow patterns in locust swarms. By combining causality analysis from information theory with PIV-based flow characterization, I aim to uncover the underlying principles governing active turbulence in collective migration.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar39",
+        "title": "Robots and Time: Synthesizing Timescales for Embodied Artificial Systems",
+        "date": "2025-10-01",
+        "time": "11:30 - 12:15",
+        "speaker": "Suet Lee",
+        "topic": "Robots and Time: Synthesizing Timescales for Embodied Artificial Systems",
+        "image": "images/suet.png",
+        "abstract": "TBD",
+        "bio": "Suet Lee earned an integrated Master’s degree in Mathematics from Imperial College London, UK. Since then she has worked in industry in the fields of software development and robotics, before returning to academia to complete a PhD in Swarm Robotics at the University of Bristol, Hauert Lab. Suet is currently a postdoctoral researcher at the University of Konstanz in the Cyber-Physical Systems group.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar40",
+        "title": "TBD",
+        "date": "2025-10-08",
+        "time": "11:30 - 12:15",
+        "speaker": "Alberto Doimo",
+        "topic": "TBD",
+        "image": "images/albertodoimo.jpg",
+        "abstract": "TBD",
+        "bio": "Alberto Doimo is a Master's student in Acoustic Engineering at Politecnico di Milano, specialised in audio signal processing and echolocation. He is also a contributor to The Sound of Bees project at CASCB, to develop a way to record the Stop signal inside beehives.",
+        "location": "Z8 Kitchen"
     }
 ]
