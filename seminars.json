@@ -403,7 +403,7 @@
         "speaker": "Ruiheng Wu",
         "topic": "End to end vision-based swarm robot control",
         "image": "images/ruiheng_wu.jpeg",
-        "abstract": "TBD",
+        "abstract": "Swarm robotics, inspired by the collective behaviors found in nature, plays a vital role in enhancing scalability, resilience, and efficiency in multi-robot systems. A major challenge in deploying swarm robotics on a large scale is enabling robots to determine their neighbors' relative positions using onboard sensors, mimicking the spatial awareness observed in animal groups. Current onboard methods, such as SLAM, require intensive computation and are not ideal for decoding neighbor information. On the other hand, combining artificial neural networks with computer vision can be effective when trained on large high-quality datasets, but collecting such datasets remains the primary bottleneck. In this seminar, I propose a general pipeline that simplifies the collection of large training datasets and enables detection with lightweight neural networks to estimate the neighbor's relative position with minimum manual work. As a demonstration, we deploy seven robots equipped with onboard cameras and Raspberry Pi 4B units, using a motion capture system to label neighbors' relative positions synchronized with the onboard images. By collecting more than 10,000 images in just 10 minutes, we train and compare three neural networks to estimate the neighbor's relative position. Our pipeline highlights the feasibility of onboard perception and control with scalable large swarm robotics, offering promising prospects for deployment beyond the lab environment.",
         "bio": "TBD",
         "location": "Z8 Kitchen"
     },
@@ -415,7 +415,7 @@
         "speaker": "Udoy Basak",
         "topic": "Decoding Collective Migration with Information Theory",
         "image": "images/udoy_basak.jpeg",
-        "abstract": "TBD",
+        "abstract": "Understanding collective behavior in animal groups requires quantitative frameworks that can capture how information is generated, shared, and transmitted among individuals. This talk introduces a suite of information-theoretic measures, beginning with Shannon entropy as the foundation for quantifying uncertainty. The discussion then develops through conditional entropy and mutual information, which characterize dependencies between agents. Extending these ideas to temporal dynamics, time-delayed mutual information measures coupling across time, while transfer entropy serves as a directional, time-asymmetric tool for identifying effective information flow. The main emphasis is on the theoretical underpinnings of these measures and their interconnections, with applications to key problems in collective animal behavior, such as detecting interaction structures, revealing leader–follower dynamics, and mapping the flow of information underlying coordinated movement. ",
         "bio": "I am investigating the collective movement of locusts using individual tracking of agents and incorporating information theory to infer different causal interactions that constitute the collective migration of locusts. In another approach, I also use the Eulerian framework, specifically Particle Image Velocimetry (PIV), to describe the macroscopic flow patterns in locust swarms. By combining causality analysis from information theory with PIV-based flow characterization, I aim to uncover the underlying principles governing active turbulence in collective migration.",
         "location": "Z8 Kitchen"
     },
