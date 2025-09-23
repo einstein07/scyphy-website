@@ -1,0 +1,5 @@
+body { font-family: sans-serif; margin: 2em; background: #f9f9f9; }
+h1, h2 { margin-bottom: .5em; }
+.seminar-link { display: block; margin: 1em 0; text-decoration: none; color: inherit; }
+.seminar { background: white; border: 1px solid #ccc; padding: 1em; border-radius: 8px; display: flex; gap: 1em; }
+.speaker-image { width: 80px; height: 80px; object-fit: cover; border-radius: 6px; }
