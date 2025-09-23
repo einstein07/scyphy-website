@@ -14,7 +14,7 @@
       const params = new URLSearchParams(window.location.search);
       const id = params.get("id");
 
-      const res = await fetch("seminars.json");
+      const res = await fetch("../seminars.json");
       const seminars = await res.json();
       const seminar = seminars.find(s => s.id === id);
 
@@ -25,13 +25,20 @@
       }
 
       container.innerHTML = `
-        <h2>${seminar.title}</h2>
-        <p>This seminar will be given by <strong>${seminar.speaker}</strong>
-        on <strong>${seminar.date}</strong> at <strong>${seminar.time}</strong>
-        in <strong>${seminar.location}</strong>.</p>
-        <p><em>Abstract:</em> ${seminar.abstract}</p>
-        <p><em>Bio:</em> ${seminar.bio}</p>
-        <img src="${seminar.image}" alt="${seminar.speaker}" style="max-width:200px">
+        <h2>${seminar.title} by ${seminar.speaker}</h2>
+        <h4>Email and Message</h4>
+
+        Hello all, </p> We are excited to continue our Short Cyber-Physical Seminars with an upcoming talk by ${seminar.speaker}
+        on ${seminar.date} at ${seminar.time} in ${seminar.location}. </p> The talk is titled "${seminar.title}". </p>
+        We hope to see you there! </p> Best, </p> The ScyPhy Group </p> The abstract for the talk and the speaker’s bio can be found at the following link: https://www.giovannireina.com/scyphy/seminar.html?id=${seminar.id} </p>
+        We look forward to seeing you at the seminar! </p>
+        Full schedule and abstracts at https://www.giovannireina.com/scyphy/
+        </p>Best Regards, </p> The ScyPhy Seminar Team </p>
+
+        <h4>Reminder</h4>
+        Hello ${seminar.speaker}, </p> This is a friendly reminder about your upcoming seminar scheduled for ${seminar.date} at ${seminar.time}. 
+        </p> We would like to have the title of your talk, a short abstract and also a your bio for our website. </p> Thank you in advance for your help. Looking forward to your talk.
+        </p> Best regards, </p> The ScyPhy Seminar Team
       `;
     }
     loadSeminar();

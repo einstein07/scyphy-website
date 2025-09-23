@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const upcomingList = document.getElementById("upcoming-list");
     const pastList = document.getElementById("past-list");
 
-    fetch("seminars.json")
+    fetch("../seminars.json")
         .then(response => response.json())
         .then(seminars => {
             // Default seminar times if not specified
@@ -33,7 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
             [...pastSeminars, ...upcomingSeminars].forEach(seminar => {
                 const seminarContent = `
                     <article class="seminar">
-                        <img src="${seminar.image}" alt="${seminar.speaker}" class="speaker-image">
                         <div class="seminar-details">
                             <h3>${seminar.title}</h3>
                             <p><strong>Speaker:</strong> ${seminar.speaker}</p>
