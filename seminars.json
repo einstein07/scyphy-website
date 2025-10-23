@@ -484,7 +484,7 @@
         "title": "From vision to action: visuo-motor coordination and adaptive control in hovering hawkmoths",
         "date": "2025-11-26",
         "time": "11:30 - 12:15",
-        "speaker": "Lochlan Walsch",
+        "speaker": "Lochlan Walsh",
         "topic": "From vision to action: visuo-motor coordination and adaptive control in hovering hawkmoths",
         "image": "images/lochlan_walsch.jpg",
         "abstract": "For a hovering hawkmoth, feeding poses a challenging control problem: the flower moves, the air swirls, and yet the proboscis must be precisely guided to the flower's nectary. Despite this challenge, hawkmoths perform exceptionally well at coordinating their flight movements and proboscis control, with millimetre precision. The hummingbird hawkmoth, Macroglossum stellatarum, serves as an ideal model to investigate the continuous sensing-action loop in flower interactions, as they use visual information to guide movement, which in turn reshapes their sensory input. In this seminar, I will share how we quantify the movements and sensory input of freely flying hawkmoths using high-speed videos and markerless tracking. Then, I will introduce our findings that hawkmoths display individualized strategies of controlling their proboscis while searching for a nectary, using solely visual information. Finally, I will discuss the visuo-motor coordination between the eyes and the proboscis, the plasticity of such systems, and future work in active sensing strategies.",
