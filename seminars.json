@@ -454,5 +454,29 @@
         "abstract": "TBA",
         "bio": "TBA",
         "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar42",
+        "title": "Be a MeSS: BioMimetic Sailboat Swarm",
+        "date": "2025-03-19",
+        "time": "13:15 - 13:35",
+        "speaker": "Pranav Kedia",
+        "topic": "Be a MeSS: BioMimetic Sailboat Swarm",
+        "image": "images/pranav_kedia.png",
+        "abstract": "TBA",
+        "bio": "Hello! I'm Pranav Kedia, a Ph.D. researcher at the cyber physical group supervised by Prof. Dr. Heiko Hamann at the University of Konstanz, where I'm affiliated with the Centre for the Advanced Study of Collective Behaviour. I am working on a swarm of autonomous sailboats optimized for long-duration endurance. This research has been a combination of learning about sailing and applying my skills and knowledge in Embedded systems and Robotics. Previously, I worked on Bee Waggle Robot in the EU H2020 project 'Hiveopolis' at the Biorobtics Lab led by Prof. Dr. Tim Landgraf at the Free University of Berlin. I completed my master's majoring in electronics and communication with a specialization in embedded systems at IIIT-B. Previously, I was fortunate to be part of the Surgical and Assistive Robotics Lab, led by Prof. Madhav Rao. I was also part of the ARMS lab, led by Dr. Arpita Sinha at IIT Bombay, India, in the summer of 2019. Prof. Sachit Rao had supervised me on guided coursework and non-course projects. I enjoy working on Bio-inspired Swarm Robotics and Swarm Intelligence methods. You can find details of my Publications and Projects here.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar43",
+        "title": "Describing the burst-and-glide movement of fish by modulating a ring attractor with neuro-inspired spiking dynamics",
+        "date": "2025-03-26",
+        "time": "13:15 - 13:35",
+        "speaker": "Marco Fele",
+        "topic": "Describing the burst-and-glide movement of fish by modulating a ring attractor with neuro-inspired spiking dynamics",
+        "image": "images/marco.png",
+        "abstract": "Oscillatory dynamics are widespread in animal behaviour. For example, fish periodically increase their swimming speed resulting in a burst-and-glide movement pattern. Following recent studies, we propose a potential functional interpretation to this behaviour by noting that a similar neuro-inspired oscillatory system has favourable decision-making properties. By coupling via non-linear feedbacks a slow variable describing responsiveness to inputs to a set of faster decision variables, a decision-making system can go through periodic cycles of \"exploration\" (gathering evidence) and \"exploitation\" (executing a decision), which emerge intrinsically from the system's dynamics. In this way, decisions are made constantly  \"on the go\", and an individual flexibly and adaptively adjusts to changes in the decisions' landscape. Furthermore, the decision-making system exhibits favourable properties such as spontaneous decisions in the absence of evidence, symmetry-breaking, and is constantly brought back to a state of ultra-sensitivity to the options' qualities. Such properties can be co-opted to develop a bio-inspired control design for effectively guiding the spatial navigation of an artificial agent. In this project, I am expanding a ring attractor model by adding neuro-inspired oscillatory behaviour. The aim is to use this model to potentially describe burst-and-glide movement in fish, and efficiently guide the navigation of a robot through its environment.",
+        "bio": "I am a third-year PhD student in animal collective behaviour at Swansea University (Wales), currently working on primates. I am interested in how individual differences like social dominance rank effect collective movement and activity synchronization. During my research visit at CASCB, I am developing a model of burst and glide movement in fish with the aims of describing repeated decision-making and developing a bio-inspired control design for the navigation of an artificial agent.",
+        "location": "Z8 Kitchen"
     }
 ]
