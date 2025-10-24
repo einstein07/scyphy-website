@@ -490,5 +490,17 @@
         "abstract": "For a hovering hawkmoth, feeding poses a challenging control problem: the flower moves, the air swirls, and yet the proboscis must be precisely guided to the flower's nectary. Despite this challenge, hawkmoths perform exceptionally well at coordinating their flight movements and proboscis control, with millimetre precision. The hummingbird hawkmoth, Macroglossum stellatarum, serves as an ideal model to investigate the continuous sensing-action loop in flower interactions, as they use visual information to guide movement, which in turn reshapes their sensory input. In this seminar, I will share how we quantify the movements and sensory input of freely flying hawkmoths using high-speed videos and markerless tracking. Then, I will introduce our findings that hawkmoths display individualized strategies of controlling their proboscis while searching for a nectary, using solely visual information. Finally, I will discuss the visuo-motor coordination between the eyes and the proboscis, the plasticity of such systems, and future work in active sensing strategies.",
         "bio": "Lochlan is a PhD student at the University of Konstanz with the IMPRS-QBEE, in the Visual Insect Neuroethology Group. He holds a BSc Cognitive Systems from the University of British Columbia, and MSc Animal Behaviour from the University of St Andrews. His research concerns using modern tracking tools to investigate the active sensing and sensorimotor control of freely behaving animals, with an emphasis on visually-guided behaviours.",
         "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar45",
+        "title": "The Swarm's Echo: Collective Intelligence in Research, Art, and Environmental Action",
+        "date": "2025-11-05",
+        "time": "11:30 - 12:15",
+        "speaker": "Avgi Stavrou",
+        "topic": "The Swarm's Echo: Collective Intelligence in Research, Art, and Environmental Action",
+        "image": "images/agvi_stavrou.webp",
+        "abstract": "Decentralised coordination principles unite theory, art, and practice. Emerging from multi‑agent learning research, these principles are rendered tangible through CA::VE's immersive installations, where human swarms enact emergence and operationalised in sustainable robotics via PROTEAS. The presentation demonstrates how collective intelligence, designed through simple local rules, generates resilient systems across distributed learning systems, public engagement, and environmental responsibility.",
+        "bio": "Avgi Stavrou is a researcher in distributed multi-agent systems, focusing on collective behaviours that emerge from them. She is completing her PhD at the FARSCOPE CDT at UoB/UWE. Her research explores the principles of intelligence, emergent behaviour, game theory, and decision-making dynamics, developing mathematical frameworks for decentralised coordination strategies in dynamic environments. Co-founding CA::VE (Collective Audio-Visual Emergence), translates complex systems into immersive experiences, with the project \"The Forest\" inviting audiences to generate audio-visual ecosystems illustrating emergence and feedback loops. Additionally, she co-founded PROTEAS, which employs robotics to confront environmental issues and encourage sustainable practices.",
+        "location": "Z8 Kitchen"
     }
 ]
