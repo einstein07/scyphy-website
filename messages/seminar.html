@@ -13,59 +13,128 @@
     async function loadSeminar() {
       const params = new URLSearchParams(window.location.search);
       const id = params.get("id");
-
+  
       const res = await fetch("../seminars.json");
       const seminars = await res.json();
       const seminar = seminars.find(s => s.id === id);
-
+  
       const container = document.getElementById("seminar-detail");
       if (!seminar) {
         container.textContent = "Seminar not found.";
         return;
       }
-
-       // Helper: decide if a field is “missing”
-    const isMissing = (v) => {
-      if (v == null) return true;
-      const s = String(v).trim();
-      if (!s) return true;
-      if(s === "images/placeholder_chatgpt.png") return true
-      const up = s.toUpperCase();
-      return up === "TBD" || up === "TBA";
-    };
-
-    // Build the missing-items list
-    const missing = [];
-    if (isMissing(seminar.title))   missing.push("Title");
-    if (isMissing(seminar.image))   missing.push("Speaker photo");
-    if (isMissing(seminar.abstract)) missing.push("Abstract");
-    if (isMissing(seminar.bio))     missing.push("Bio");
-
-    const missingListHTML = missing.length
-      ? `<p>We’re still missing the following for the website:</p>
-         <ul>${missing.map(item => `<li>${item}</li>`).join("")}</ul>
-         <p>Could you please send these at your convenience?</p>`
-      : `<p>We have all the required materials for the website. Thank you!</p>`;
-
+  
+      const isMissing = (v) => {
+        if (v == null) return true;
+        const s = String(v).trim();
+        if (!s) return true;
+        const up = s.toUpperCase();
+        return up === "TBD" || up === "TBA";
+      };
+  
+      const missing = [];
+      if (isMissing(seminar.title))    missing.push("Title");
+      if (isMissing(seminar.image))    missing.push("Speaker photo");
+      if (isMissing(seminar.abstract)) missing.push("Abstract");
+      if (isMissing(seminar.bio))      missing.push("Bio");
+  
+      const dynamicLink = `https://www.giovannireina.com/scyphy/seminar.html?id=${encodeURIComponent(seminar.id)}`;
+  
+      // --------- Build the two email texts (plain text, nice line breaks) ----------
+      const emailAnnouncementText =
+        `Subject: ${seminar.title} — ${seminar.date} ${seminar.time} (${seminar.location})
+        
+        Hello all,
+        
+        We are excited to continue our Short Cyber-Physical Seminars with an upcoming talk by ${seminar.speaker} on ${seminar.date} at ${seminar.time} in ${seminar.location}.
+        The talk is titled: "${seminar.title}".
+        
+        The abstract for the talk and the speaker’s bio can be found at:
+        ${dynamicLink}
+        
+        We look forward to seeing you at the seminar!
+        
+        Full schedule and abstracts: https://www.giovannireina.com/scyphy/
+        
+        Best regards,
+        The ScyPhy Seminar Team`;
+        
+            const missingListText = missing.length
+              ? `We're still missing the following for the website:\n- ${missing.join("\n- ")}\n\nCould you please send these at your convenience?`
+              : `We have all the required materials for the website. Thank you!`;
+        
+            const emailReminderText =
+        `Subject: Reminder — Your seminar on ${seminar.date} at ${seminar.time}
+        
+        Hello ${seminar.speaker},
+        
+        This is a friendly reminder about your upcoming seminar scheduled for ${seminar.date} at ${seminar.time}.
+        ${missingListText}
+        
+        Best regards,
+        The ScyPhy Seminar Team`;
+  
+      // --------- Render blocks with copy buttons ----------
       container.innerHTML = `
         <h2>${seminar.title} by ${seminar.speaker}</h2>
-        <h4>Email and Message</h4>
-
-        Hello all, </p> We are excited to continue our Short Cyber-Physical Seminars with an upcoming talk by ${seminar.speaker}
-        on ${seminar.date} at ${seminar.time} in ${seminar.location}. </p> The talk is titled "${seminar.title}". </p>
-        The abstract for the talk and the speaker’s bio can be found at the following link: https://www.giovannireina.com/scyphy/seminar.html?id=${seminar.id} </p>
-        We look forward to seeing you at the seminar! </p>
-        Full schedule and abstracts at https://www.giovannireina.com/scyphy/
-        </p>Best Regards, </p> The ScyPhy Seminar Team </p>
-
-        <h4>Reminder</h4>
-        Hello ${seminar.speaker}, <br>
-        <p>This is a friendly reminder about your upcoming seminar scheduled for <strong>${seminar.date}</strong> at <strong>${seminar.time}</strong>.</p>
-        ${missingListHTML}
-        <p>Best regards,<br>The ScyPhy Seminar Team</p>
+  
+        <section class="block">
+          <div class="block-head">
+            <h4>Email and Message</h4>
+            <button class="copy-btn" data-copy-target="announce">Copy</button>
+          </div>
+          <pre class="copy-src" id="copy-announce">${escapeHtml(emailAnnouncementText)}</pre>
+        </section>
+  
+        <section class="block">
+          <div class="block-head">
+            <h4>Reminder</h4>
+            <button class="copy-btn" data-copy-target="reminder">Copy</button>
+          </div>
+          <pre class="copy-src" id="copy-reminder">${escapeHtml(emailReminderText)}</pre>
+        </section>
       `;
+  
+      // Attach copy handlers
+      document.querySelectorAll(".copy-btn").forEach(btn => {
+        btn.addEventListener("click", async () => {
+          const target = btn.getAttribute("data-copy-target");
+          const el = document.getElementById(`copy-${target}`);
+          const text = el.textContent; // already plain text
+          try {
+            await navigator.clipboard.writeText(text);
+            flash(btn, "Copied!");
+          } catch {
+            // Fallback for non-secure contexts: use a hidden textarea
+            const ta = document.createElement("textarea");
+            ta.value = text;
+            ta.style.position = "fixed"; ta.style.left = "-9999px";
+            document.body.appendChild(ta);
+            ta.select();
+            try { document.execCommand("copy"); flash(btn, "Copied!"); }
+            finally { document.body.removeChild(ta); }
+          }
+        });
+      });
+  
+      // helpers
+      function flash(button, msg) {
+        const old = button.textContent;
+        button.textContent = msg;
+        button.disabled = true;
+        setTimeout(() => { button.textContent = old; button.disabled = false; }, 1200);
+      }
+  
+      function escapeHtml(s) {
+        return s
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;");
+      }
     }
+  
     loadSeminar();
   </script>
+  
 </body>
 </html>
