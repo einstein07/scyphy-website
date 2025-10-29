@@ -502,5 +502,16 @@
         "abstract": "Decentralised coordination principles unite theory, art, and practice. Emerging from multi‑agent learning research, these principles are rendered tangible through CA::VE's immersive installations, where human swarms enact emergence and operationalised in sustainable robotics via PROTEAS. The presentation demonstrates how collective intelligence, designed through simple local rules, generates resilient systems across distributed learning systems, public engagement, and environmental responsibility.",
         "bio": "Avgi Stavrou is a researcher in distributed multi-agent systems, focusing on collective behaviours that emerge from them. She is completing her PhD at the FARSCOPE CDT at UoB/UWE. Her research explores the principles of intelligence, emergent behaviour, game theory, and decision-making dynamics, developing mathematical frameworks for decentralised coordination strategies in dynamic environments. Co-founding CA::VE (Collective Audio-Visual Emergence), translates complex systems into immersive experiences, with the project \"The Forest\" inviting audiences to generate audio-visual ecosystems illustrating emergence and feedback loops. Additionally, she co-founded PROTEAS, which employs robotics to confront environmental issues and encourage sustainable practices.",
         "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar46",
+        "title": "Visual Mechanisms Underlying Collision Avoidance in the Swarm",
+        "date": "2025-11-12",
+        "time": "11:30 - 12:15",
+        "speaker": "Chi Yu",
+        "topic": "Visual Mechanisms Underlying Collision Avoidance in the Swarm",
+        "image": "images/chi_yu.jpg",
+        "abstract": "A fundamental issue in animal migration is how to keep moving without crushing nearby conspecifics. Vision provides instant information about the motion of an animal itself and nearby conspecifics to adjust behaviours accordingly. Despite limited number of neurons in the nervous system, the monocular vision in locusts can predict when crushing occurs and trigger defensive behaviours, which makes it a valuable model to explore the underlying mechanism. To date, its application has extended to real-time collision avoidance in computer vision and electronic devices. While being a model in biomimicry, current methods are better at detecting approaching “threating” signals such as fast and/or big objects than “non-threating” signals, the slow and small objects. This limitation might be due to previous biology work emphasizes the context of predator-prey interaction or flying locust swarm. Interestingly, one paper has also shown that implementing locust’s computational model would cause slow robots but not fast ones a reduced detection of obstacles. One way to address this issue is to improve our understanding of neural computation for collective motion, particularly the slow one. By studying the other aspect of locust’s collective motion, the marching band, we reported potential behavioural dynamics and neural computation involved in processing non-threating approaching objects. In this talk, I will talk about the working hypothesis and outlook on this project.",
+        "bio": "TBA"
     }
 ]
