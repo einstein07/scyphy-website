@@ -508,11 +508,11 @@
         "title": "Visual Mechanisms Underlying Collision Avoidance in the Swarm",
         "date": "2025-11-12",
         "time": "11:30 - 12:15",
-        "speaker": "Chi-Yu Lee",
+        "speaker": "Chi-Yü Lee",
         "topic": "Visual Mechanisms Underlying Collision Avoidance in the Swarm",
         "image": "images/chi_yu.jpg",
         "abstract": "A fundamental issue in animal migration is how to keep moving without crushing nearby conspecifics. Vision provides instant information about the motion of an animal itself and nearby conspecifics to adjust behaviours accordingly. Despite limited number of neurons in the nervous system, the monocular vision in locusts can predict when crushing occurs and trigger defensive behaviours, which makes it a valuable model to explore the underlying mechanism. To date, its application has extended to real-time collision avoidance in computer vision and electronic devices. While being a model in biomimicry, current methods are better at detecting approaching “threating” signals such as fast and/or big objects than “non-threating” signals, the slow and small objects. This limitation might be due to previous biology work emphasizes the context of predator-prey interaction or flying locust swarm. Interestingly, one paper has also shown that implementing locust’s computational model would cause slow robots but not fast ones a reduced detection of obstacles. One way to address this issue is to improve our understanding of neural computation for collective motion, particularly the slow one. By studying the other aspect of locust’s collective motion, the marching band, we reported potential behavioural dynamics and neural computation involved in processing non-threating approaching objects. In this talk, I will talk about the working hypothesis and outlook on this project.",
-        "bio": "TBA",
+        "bio": "Chi-Yü Lee is a doctoral student in the International Max Planck Research School for Quantitative Behaviour, Ecology, and Evolution. He holds a Bachelor degree in Bio-resource Sciences from University of Tsukuba and Master of Philosophy in Experimental Psychology from University College London. His research concerns neural computation behind conspecific interaction.",
         "location": "Z8 Kitchen"
     },
     {
