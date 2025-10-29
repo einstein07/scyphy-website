@@ -24,6 +24,29 @@
         return;
       }
 
+       // Helper: decide if a field is “missing”
+    const isMissing = (v) => {
+      if (v == null) return true;
+      const s = String(v).trim();
+      if (!s) return true;
+      if(s === "images/placeholder_chatgpt.png") return true
+      const up = s.toUpperCase();
+      return up === "TBD" || up === "TBA";
+    };
+
+    // Build the missing-items list
+    const missing = [];
+    if (isMissing(seminar.title))   missing.push("Title");
+    if (isMissing(seminar.image))   missing.push("Speaker photo");
+    if (isMissing(seminar.abstract)) missing.push("Abstract");
+    if (isMissing(seminar.bio))     missing.push("Bio");
+
+    const missingListHTML = missing.length
+      ? `<p>We’re still missing the following for the website:</p>
+         <ul>${missing.map(item => `<li>${item}</li>`).join("")}</ul>
+         <p>Could you please send these at your convenience?</p>`
+      : `<p>We have all the required materials for the website. Thank you!</p>`;
+
       container.innerHTML = `
         <h2>${seminar.title} by ${seminar.speaker}</h2>
         <h4>Email and Message</h4>
@@ -36,9 +59,10 @@
         </p>Best Regards, </p> The ScyPhy Seminar Team </p>
 
         <h4>Reminder</h4>
-        Hello ${seminar.speaker}, </p> This is a friendly reminder about your upcoming seminar scheduled for ${seminar.date} at ${seminar.time}. 
-        </p> We would like to have the title of your talk, a short abstract and also a your bio for our website. </p> Thank you in advance for your help. Looking forward to your talk.
-        </p> Best regards, </p> The ScyPhy Seminar Team
+        Hello ${seminar.speaker}, <br>
+        <p>This is a friendly reminder about your upcoming seminar scheduled for <strong>${seminar.date}</strong> at <strong>${seminar.time}</strong>.</p>
+        ${missingListHTML}
+        <p>Best regards,<br>The ScyPhy Seminar Team</p>
       `;
     }
     loadSeminar();
