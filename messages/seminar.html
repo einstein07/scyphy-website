@@ -64,77 +64,66 @@
          <p>Could you please send these at your convenience?</p>`
       : `<p>We have all the required materials for the website. Thank you!</p>`;
         
-      const emailReminderText =
-        `
-        Hello ${seminar.speaker},
-        
-        This is a friendly reminder about your upcoming seminar scheduled for ${seminar.date} at ${seminar.time}.
-        ${missingListHTML}
-        
-        Best regards,
-        The ScyPhy Seminar Team`;
-  
-      // --------- Render blocks with copy buttons ----------
-      container.innerHTML = `
-        <h2>${seminar.title} by ${seminar.speaker}</h2>
-  
-        <section class="block">
-          <div class="block-head">
-            <h4>Email and Message</h4>
-            <button class="copy-btn" data-copy-target="announce">Copy</button>
-          </div>
-          <pre class="copy-src" id="copy-announce">${escapeHtml(emailAnnouncementText)}</pre>
-        </section>
-  
-        <section class="block">
-          <div class="block-head">
-            <h4>Reminder</h4>
-            <button class="copy-btn" data-copy-target="reminder">Copy</button>
-          </div>
-          <pre class="copy-src" id="copy-reminder">${escapeHtml(emailReminderText)}</pre>
-        </section>
-      `;
-  
-      // Attach copy handlers
-      document.querySelectorAll(".copy-btn").forEach(btn => {
-        btn.addEventListener("click", async () => {
-          const target = btn.getAttribute("data-copy-target");
-          const el = document.getElementById(`copy-${target}`);
-          const text = el.textContent; // already plain text
-          try {
-            await navigator.clipboard.writeText(text);
-            flash(btn, "Copied!");
-          } catch {
-            // Fallback for non-secure contexts: use a hidden textarea
-            const ta = document.createElement("textarea");
-            ta.value = text;
-            ta.style.position = "fixed"; ta.style.left = "-9999px";
-            document.body.appendChild(ta);
-            ta.select();
-            try { document.execCommand("copy"); flash(btn, "Copied!"); }
-            finally { document.body.removeChild(ta); }
-          }
-        });
+      const emailReminderHTML = `
+      <p>Hello ${seminar.speaker},</p>
+      <p>This is a friendly reminder about your upcoming seminar scheduled for <strong>${seminar.date}</strong> at <strong>${seminar.time}</strong>.</p>
+      ${missingListHTML}
+      <p>Best regards,<br>The ScyPhy Seminar Team</p>
+    `;
+
+    // Render HTML blocks
+    container.innerHTML = `
+      <h2>${seminar.title} by ${seminar.speaker}</h2>
+
+      <section class="block">
+        <div class="block-head">
+          <h4>Email and Message</h4>
+          <button class="copy-btn" data-copy-target="announce">Copy</button>
+        </div>
+        <div class="copy-src" id="copy-announce">${emailAnnouncementHTML}</div>
+      </section>
+
+      <section class="block">
+        <div class="block-head">
+          <h4>Reminder</h4>
+          <button class="copy-btn" data-copy-target="reminder">Copy</button>
+        </div>
+        <div class="copy-src" id="copy-reminder">${emailReminderHTML}</div>
+      </section>
+    `;
+
+    // Copy button logic
+    document.querySelectorAll(".copy-btn").forEach(btn => {
+      btn.addEventListener("click", async () => {
+        const target = btn.getAttribute("data-copy-target");
+        const el = document.getElementById(`copy-${target}`);
+        const text = el.innerText; // copies visible text (not HTML tags)
+        try {
+          await navigator.clipboard.writeText(text);
+          flash(btn, "Copied!");
+        } catch {
+          const ta = document.createElement("textarea");
+          ta.value = text;
+          ta.style.position = "fixed"; ta.style.left = "-9999px";
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand("copy");
+          document.body.removeChild(ta);
+          flash(btn, "Copied!");
+        }
       });
-  
-      // helpers
-      function flash(button, msg) {
-        const old = button.textContent;
-        button.textContent = msg;
-        button.disabled = true;
-        setTimeout(() => { button.textContent = old; button.disabled = false; }, 1200);
-      }
-  
-      function escapeHtml(s) {
-        return s
-          .replace(/&/g, "&amp;")
-          .replace(/</g, "&lt;")
-          .replace(/>/g, "&gt;");
-      }
+    });
+
+    function flash(button, msg) {
+      const old = button.textContent;
+      button.textContent = msg;
+      button.disabled = true;
+      setTimeout(() => { button.textContent = old; button.disabled = false; }, 1200);
     }
-  
-    loadSeminar();
-  </script>
+  }
+
+  loadSeminar();
+</script>
   
 </body>
 </html>
