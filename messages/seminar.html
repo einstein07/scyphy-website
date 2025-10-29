@@ -42,8 +42,7 @@
   
       // --------- Build the two email texts (plain text, nice line breaks) ----------
       const emailAnnouncementText =
-        `Subject: ${seminar.title} — ${seminar.date} ${seminar.time} (${seminar.location})
-        
+        `
         Hello all,
         
         We are excited to continue our Short Cyber-Physical Seminars with an upcoming talk by ${seminar.speaker} on ${seminar.date} at ${seminar.time} in ${seminar.location}.
@@ -59,17 +58,18 @@
         Best regards,
         The ScyPhy Seminar Team`;
         
-            const missingListText = missing.length
-              ? `We're still missing the following for the website:\n- ${missing.join("\n- ")}\n\nCould you please send these at your convenience?`
-              : `We have all the required materials for the website. Thank you!`;
+      const missingListHTML = missing.length
+      ? `<p>We’re still missing the following for the website:</p>
+         <ul>${missing.map(item => `<li>${item}</li>`).join("")}</ul>
+         <p>Could you please send these at your convenience?</p>`
+      : `<p>We have all the required materials for the website. Thank you!</p>`;
         
-            const emailReminderText =
-        `Subject: Reminder — Your seminar on ${seminar.date} at ${seminar.time}
-        
+      const emailReminderText =
+        `
         Hello ${seminar.speaker},
         
         This is a friendly reminder about your upcoming seminar scheduled for ${seminar.date} at ${seminar.time}.
-        ${missingListText}
+        ${missingListHTML}
         
         Best regards,
         The ScyPhy Seminar Team`;
