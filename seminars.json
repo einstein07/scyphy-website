@@ -526,5 +526,17 @@
         "abstract": "In classical Reinforcement Learning settings, to achieve good results, one needs to provide a performance measure in the form of a reward function. This can be difficult. With what number would you reward a self-driving car dodging a kid? And compared to that, how well did a car reach the goal on time? It is difficult to transfer common sense into numbers, especially since in RL, maximising this function also needs to lead to the desired behaviour. It is far more intuitive to simply demonstrate the desired behaviour, which is the core idea behind Imitation Learning. I am going to present you a way to do imitation learning for a swarm of turtle bots, achieving learning behaviours like random walk, standing still, aggregating, and dispersion, only from demonstrating the desired behaviour in a self-written demonstration and simulation tool. This covers the whole pipeline, from demonstrating the behaviour in simulation, to learning that behaviour in simulation, and lastly deploying the policies on a real TurtleBot swarm.",
         "bio": "Mattes is in his master’s at Technical University of Munich, studying Robotics, Cognition, Intelligence. He completed his B.Sc. in Computer Science at the University of Konstanz, doing his thesis with Jonas Kuckling. Between his Bachelor’s and Master’s, he kept working as a student researcher with Jonas, which resulted in publishing their paper “Generative adversarial imitation learning for robot swarms: Learning from human demonstrations and trained policies”. During the three years of his bachelor’s, he worked as a developer in the energy engineering industry at AVAT, cooperating with companies like Schwarzwaldmilch and Hyundai Heavy Industries.",
         "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar48",
+        "title": "TBA",
+        "date": "2025-12-03",
+        "time": "11:30 - 12:15",
+        "speaker": "Jake Graving",
+        "topic": "TBA",
+        "image": "images/jake_graving.png",
+        "abstract": "TBA",
+        "bio": "TBA",
+        "location": "Z8 Kitchen"
     }
 ]
