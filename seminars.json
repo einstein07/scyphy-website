@@ -529,14 +529,14 @@
     },
     {
         "id": "seminar48",
-        "title": "TBA",
+        "title": "Adaptive Behavior as Probabilistic Inference",
         "date": "2025-12-03",
         "time": "11:30 - 12:15",
         "speaker": "Jake Graving",
-        "topic": "TBA",
+        "topic": "Adaptive Behavior as Probabilistic Inference",
         "image": "images/jake_graving.png",
-        "abstract": "TBA",
-        "bio": "TBA",
+        "abstract": "Animals must choose where to move and what to do under uncertainty, limited time, and energetic constraints. I’ll outline a compact framework that casts adaptive behavior as probabilistic inference: agents maintain beliefs over options and choose actions to maximize utility and reduce uncertainty, revealing a principled trade-off between exploration and exploitation. Using simplified models of spatiotemporal decision-making, I’ll show how this lens unifies normative and mechanistic views, recovers familiar circuit motifs as special cases, and explains patterns like conflict, compromise, and commitment. I’ll close with examples of fitting interpretable models to behavioral data and using counterfactual policies to identify environmental cues that shape decisions.",
+        "bio": "Jake Graving is a Research Scientist at the Max Planck Institute of Animal Behavior. His work sits at the intersection of machine learning, computer vision, and Bayesian inference, developing scalable and interpretable methods for measuring and modeling behavior in the lab and field. His current work focuses on probabilistic models of decision-making and inverse methods to recover decision policies from behavioral data in individuals and groups.",
         "location": "Z8 Kitchen"
     }
 ]
