@@ -538,5 +538,29 @@
         "abstract": "Animals must choose where to move and what to do under uncertainty, limited time, and energetic constraints. I’ll outline a compact framework that casts adaptive behavior as probabilistic inference: agents maintain beliefs over options and choose actions to maximize utility and reduce uncertainty, revealing a principled trade-off between exploration and exploitation. Using simplified models of spatiotemporal decision-making, I’ll show how this lens unifies normative and mechanistic views, recovers familiar circuit motifs as special cases, and explains patterns like conflict, compromise, and commitment. I’ll close with examples of fitting interpretable models to behavioral data and using counterfactual policies to identify environmental cues that shape decisions.",
         "bio": "Jake Graving is a Research Scientist at the Max Planck Institute of Animal Behavior. His work sits at the intersection of machine learning, computer vision, and Bayesian inference, developing scalable and interpretable methods for measuring and modeling behavior in the lab and field. His current work focuses on probabilistic models of decision-making and inverse methods to recover decision policies from behavioral data in individuals and groups.",
         "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar49",
+        "title": "On the Cost of Evolving Task Specialization in Multi-Robot Systems",
+        "date": "2025-12-09",
+        "time": "11:30 - 12:15",
+        "speaker": "Paolo Leopardi",
+        "topic": " On the Cost of Evolving Task Specialization in Multi-Robot Systems",
+        "image": "images/paolo_leopardi.jpg",
+        "abstract": "TBA",
+        "bio": "Paolo Leopardi is a Ph.D. candidate in the Cyber-Physical Systems Group at the University of Konstanz and a member of the Center for the Advanced Study of Collective Behaviour. His research focuses on evolutionary swarm robotics, investigating how task partitioning and task allocation emerge in robot swarms. He holds a Master’s degree in Computer and Robotics Engineering from the University of Perugia, Italy. Since 2025, he has been a board member of the editorial team of the prestigious and worldwide recognised Sci-Phy seminar series.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar50",
+        "title": "Modelling active sensing collectives.",
+        "date": "2025-12-17",
+        "time": "11:30 - 12:15",
+        "speaker": "Aditya Moger",
+        "topic": "Modelling active sensing collectives.",
+        "image": "images/aditya_moger.jpg",
+        "abstract": "Active-sensing animals like bats probe their environment by emitting energy and analyzing returning signals. A single bat's call generates a cascade of echoes from objects, which the auditory system must segregate into one coherent spatial scene. This problem is exaggerated in social groups as one must also discriminate own echoes from the calls and echoes of con-specifics. Then, how do bats navigate dense swarms without colliding when facing jamming? To answer this, we develop biologically parameterized models of bats. First, we use a static model to characterize the auditory scene of individual bats. We find that echo-acoustic information in collectives is limited and is constrained by the group’s orientation and individual's spatial position. We then construct a dynamic model to investigate collective coordination despite compromised sensing and heuristic behaviors that bats could be utilizing. We demonstrate a reduction in collision rates when individuals integrate information over larger times and respond to calls of others rather than relying on self-echoes. We also explore echo-acoustic flow, where bats may utilize the consistency in sound arrival and angle to enhance echo detection and mitigate jamming costs in dense groups.",
+        "bio": "I am a masters student at the Indian Institute for Science Education and Research, Pune (IISER Pune). My thesis work, supervised by Thejasvi Beleyur, focuses on developing agent based models to understand bat collective behavior. I love animals (and their behavior ofc!) and I am having fun using my computational modeling skills to understand how bats do cool stuff! ",
+        "location": "Z8 Kitchen"
     }
 ]
