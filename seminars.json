@@ -547,7 +547,7 @@
         "speaker": "Paolo Leopardi",
         "topic": " On the Cost of Evolving Task Specialization in Multi-Robot Systems",
         "image": "images/paolo_leopardi.jpg",
-        "abstract": "TBA",
+        "abstract": "Task specialization can lead to simpler behaviors and higher efficiency in multi-robot systems. Previous studies have demonstrated the emergence of task-specific robot controllers through evolutionary optimization. However, most of these studies have prioritized feasibility over cost. Using a foraging task inspired by leafcutter ants, we evolved artificial neural networks with generalist behaviors for the entire task and task-specialist behaviors for subtasks, within a limited evaluation budget. This constraint naturally arises when high-fidelity simulators are required to ensure a reliable transfer from simulation to real-world robotic systems. We demonstrate that generalist behaviors can be successfully optimized, whereas the optimized task-specialist controllers fail to cooperate efficiently. Consequently, task specialization may not yield higher efficiency under restricted optimization budgets.",
         "bio": "Paolo Leopardi is a Ph.D. candidate in the Cyber-Physical Systems Group at the University of Konstanz and a member of the Center for the Advanced Study of Collective Behaviour. His research focuses on evolutionary swarm robotics, investigating how task partitioning and task allocation emerge in robot swarms. He holds a Master’s degree in Computer and Robotics Engineering from the University of Perugia, Italy. Since 2025, he has been a board member of the editorial team of the prestigious and worldwide recognised Sci-Phy seminar series.",
         "location": "Z8 Kitchen"
     },
