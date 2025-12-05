@@ -43,9 +43,10 @@
       seminars.forEach(s => { s._end = parseEndDateTime(s); });
   
       // pick up to 3 upcoming items (including the current one if it’s upcoming)
-      const now = new Date();
+      // const now = new Date();
+      const currentEnd = seminar._end || parseEndDateTime(seminar);
       const upcoming = seminars
-        .filter(s => s._end > now)
+        .filter(s => s._end > currentEnd)
         .sort((a, b) => a._end - b._end)
         .slice(0, 3);
   
