@@ -45,7 +45,7 @@
       // pick up to 3 upcoming items (including the current one if it’s upcoming)
       const now = new Date();
       const upcoming = seminars
-        .filter(s => s._end >= now && s.id != seminar.id)
+        .filter(s => s._end > now)
         .sort((a, b) => a._end - b._end)
         .slice(0, 3);
   
