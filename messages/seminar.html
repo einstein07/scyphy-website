@@ -24,6 +24,152 @@
         return;
       }
   
+      // --- helpers used below ---
+      const defaultStartTime = "11:30";
+      const defaultEndTime   = "12:15";
+      const parseEndDateTime = (s) => {
+        let endTime = defaultEndTime;
+        if (s.time) {
+          const m = s.time.match(/(\d{2}:\d{2})\s*-\s*(\d{2}:\d{2})/);
+          if (m) endTime = m[2];
+        }
+        return new Date(`${s.date}T${endTime}:00`);
+      };
+      const fmtDate = (dateStr) =>
+        new Intl.DateTimeFormat(undefined, { weekday: "short", year: "numeric", month: "short", day: "numeric" })
+          .format(new Date(dateStr));
+  
+      // compute end datetimes for sorting/filtering
+      seminars.forEach(s => { s._end = parseEndDateTime(s); });
+  
+      // pick up to 3 upcoming items (including the current one if it’s upcoming)
+      const now = new Date();
+      const upcoming = seminars
+        .filter(s => s._end >= now)
+        .sort((a, b) => a._end - b._end)
+        .slice(0, 3);
+  
+      const upcomingListHTML = upcoming.length
+        ? `<p><strong>Also coming up:</strong></p>
+           <ul>
+             ${upcoming.map(u => `<li>${fmtDate(u.date)} — “${u.title}” — ${u.speaker}</li>`).join("")}
+           </ul>`
+        : "";
+  
+      // missing items logic (unchanged)
+      const isMissing = (v) => {
+        if (v == null) return true;
+        const s = String(v).trim();
+        if (!s) return true;
+        const up = s.toUpperCase();
+        return up === "TBD" || up === "TBA";
+      };
+  
+      const missing = [];
+      if (isMissing(seminar.title))    missing.push("Title");
+      if (isMissing(seminar.image))    missing.push("Speaker photo");
+      if (isMissing(seminar.abstract)) missing.push("Abstract");
+      if (isMissing(seminar.bio))      missing.push("Bio");
+  
+      const dynamicLink = `https://www.giovannireina.com/scyphy/seminar.html?id=${encodeURIComponent(seminar.id)}`;
+  
+      // --- Email & Reminder HTML (announcement now includes the upcoming list) ---
+      const emailAnnouncementText = `
+        <p>Hello all,</p>
+        <p>We are excited to continue our Short Cyber-Physical Seminars with an upcoming talk by <strong>${seminar.speaker}</strong>
+           on <strong>${seminar.date}</strong> at <strong>${seminar.time}</strong> in <strong>${seminar.location}</strong>.</p>
+        <p>The talk is titled: “${seminar.title}”.</p>
+        <p>The abstract for the talk and the speaker’s bio can be found at:
+           <a href="${dynamicLink}">${dynamicLink}</a></p>
+        ${upcomingListHTML}
+        <p>We look forward to seeing you at the seminar!</p>
+        <p>Full schedule and abstracts: <a href="https://www.giovannireina.com/scyphy/">https://www.giovannireina.com/scyphy/</a></p>
+        <p>Best regards,<br>The ScyPhy Seminar Team</p>
+      `;
+  
+      const missingListHTML = missing.length
+        ? `<p>We’re still missing the following for the website:</p>
+           <ul>${missing.map(item => `<li>${item}</li>`).join("")}</ul>
+           <p>Could you please send these at your convenience?</p>`
+        : `<p>We have all the required materials for the website. Thank you!</p>`;
+  
+      const emailReminderHTML = `
+        <p>Hello ${seminar.speaker},</p>
+        <p>This is a friendly reminder about your upcoming seminar scheduled for <strong>${seminar.date}</strong> at <strong>${seminar.time}</strong>.</p>
+        ${missingListHTML}
+        <p>Best regards,<br>The ScyPhy Seminar Team</p>
+      `;
+  
+      // render (same structure you already had)
+      container.innerHTML = `
+        <h2>${seminar.title} by ${seminar.speaker}</h2>
+  
+        <section class="block">
+          <div class="block-head">
+            <h4>Email and Message</h4>
+            <button class="copy-btn" data-copy-target="announce">Copy</button>
+          </div>
+          <div class="copy-src" id="copy-announce">${emailAnnouncementText}</div>
+        </section>
+  
+        <section class="block">
+          <div class="block-head">
+            <h4>Reminder</h4>
+            <button class="copy-btn" data-copy-target="reminder">Copy</button>
+          </div>
+          <div class="copy-src" id="copy-reminder">${emailReminderHTML}</div>
+        </section>
+      `;
+  
+      // copy handlers (unchanged)
+      document.querySelectorAll(".copy-btn").forEach(btn => {
+        btn.addEventListener("click", async () => {
+          const target = btn.getAttribute("data-copy-target");
+          const el = document.getElementById(`copy-${target}`);
+          const text = el.innerText;
+          try {
+            await navigator.clipboard.writeText(text);
+            flash(btn, "Copied!");
+          } catch {
+            const ta = document.createElement("textarea");
+            ta.value = text;
+            ta.style.position = "fixed"; ta.style.left = "-9999px";
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand("copy");
+            document.body.removeChild(ta);
+            flash(btn, "Copied!");
+          }
+        });
+      });
+  
+      function flash(button, msg) {
+        const old = button.textContent;
+        button.textContent = msg;
+        button.disabled = true;
+        setTimeout(() => { button.textContent = old; button.disabled = false; }, 1200);
+      }
+    }
+  
+    loadSeminar();
+  </script>
+  
+
+  <!-- <script>
+    async function loadSeminar() {
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get("id");
+  
+      const res = await fetch("../seminars.json");
+      const seminars = await res.json();
+      const seminar = seminars.find(s => s.id === id);
+  
+      const container = document.getElementById("seminar-detail");
+      if (!seminar) {
+        container.textContent = "Seminar not found.";
+        return;
+      }
+  
       const isMissing = (v) => {
         if (v == null) return true;
         const s = String(v).trim();
@@ -124,7 +270,7 @@
   }
 
   loadSeminar();
-</script>
+</script> -->
   
 </body>
 </html>
