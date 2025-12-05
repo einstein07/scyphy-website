@@ -35,10 +35,25 @@
         }
         return new Date(`${s.date}T${endTime}:00`);
       };
-      const fmtDate = (dateStr) =>
-        new Intl.DateTimeFormat(undefined, { weekday: "short", year: "numeric", month: "short", day: "numeric" })
-          .format(new Date(dateStr));
-  
+      // const fmtDate = (dateStr) =>
+      //   new Intl.DateTimeFormat(undefined, { weekday: "short", year: "numeric", month: "short", day: "numeric" })
+      //     .format(new Date(dateStr));
+
+      const fmtDate = (dateStr) => {
+        // dateStr is "YYYY-MM-DD"
+        const [year, month, day] = dateStr.split("-").map(Number);
+
+        // Create a UTC date so timezone doesn’t shift the day
+        const d = new Date(Date.UTC(year, month - 1, day));
+
+        return new Intl.DateTimeFormat(undefined, {
+          weekday: "short",
+          year: "numeric",
+          month: "short",
+          day: "numeric",
+          timeZone: "UTC", // important: format in UTC too
+        }).format(d);
+      };
       // compute end datetimes for sorting/filtering
       seminars.forEach(s => { s._end = parseEndDateTime(s); });
   
