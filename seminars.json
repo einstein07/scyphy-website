@@ -566,7 +566,7 @@
     {
         "id": "seminar51",
         "title": "How Swarms Differ: Challenges in Collective Behaviour Comparison.",
-        "date": "2026-1-21",
+        "date": "2026-01-21",
         "time": "11:30 - 12:15",
         "speaker": "André Jesus",
         "topic": "How Swarms Differ: Challenges in Collective Behaviour Comparison.",
@@ -578,13 +578,37 @@
     {
         "id": "seminar52",
         "title": "Living Networks for Real-time Monitoring.",
-        "date": "2026-1-14",
+        "date": "2026-01-14",
         "time": "11:30 - 12:15",
         "speaker": "Eduard Buss",
         "topic": "Living Networks for Real-time Monitoring.",
         "image": "images/eduard_buss.jpg",
         "abstract": "Plants continuously sense and integrate environmental stimuli through rich physiological responses, yet this information is rarely exploited for real-time monitoring. I present living networks for real-time monitoring, a bio-hybrid sensing approach that integrates living plants with embedded sensor nodes. Results from controlled and outdoor experiments show that plant electrical signals contain discriminative patterns for inferring environmental and plant conditions.",
         "bio": "Eduard Buss is a Ph.D. candidate in the Cyber-Physical Systems Group at the University of Konstanz. His research focuses on bio-hybrid systems, with a particular interest on using plants as living sensors for environmental monitoring and precision agriculture. He holds a master’s degree in Robotics and Autonomous Systems from the University of Lübeck, Germany.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar53",
+        "title": "Fission–Fusion Processes for Regulation of Group Size and Number in Multi-Agent Systems.",
+        "date": "2026-02-04",
+        "time": "11:30 - 12:15",
+        "speaker": "Tianfu Zhang",
+        "topic": "Fission–Fusion Processes for Regulation of Group Size and Number in Multi-Agent Systems.",
+        "image": "images/tianfu_zhang.jpg",
+        "abstract": "Multi-agent systems often require the formation of subgroups of varying sizes to solve their assigned task. In dynamic environments, it becomes an online problem as groups must continuously adjust their size and composition to maintain overall efficiency and stability. We propose a decentralized group regulation framework inspired by natural fission-fusion dynamics. Our approach combines a gossip-based group size estimation algorithm with a probabilistic behavioral control model. We enable anonymous agents to asynchronously estimate their group sizes using only local information and to autonomously execute group merging or splitting behaviors. Simulation results show stable and adaptive group size regulation under different communication modes and dynamic conditions. Our unified mechanism regulates both the size and number of groups and has potential to serve as a theoretical and algorithmic foundation for this fundamental but underexplored problem.",
+        "bio": "Tianfu Zhang is a Ph.D. candidate in the Cyber-Physical Systems Group at the University of Konstanz.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar54",
+        "title": "Decision-making Models across Scales.",
+        "date": "2026-01-28",
+        "time": "11:30 - 12:15",
+        "speaker": "Dan Gorbonos",
+        "topic": "Decision-making Models across Scales.",
+        "image": "images/dan_gorbonos.jpg",
+        "abstract": "TBA.",
+        "bio": "",
         "location": "Z8 Kitchen"
     }
 ]
