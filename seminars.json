@@ -577,18 +577,6 @@
     },
     {
         "id": "seminar52",
-        "title": "Living Networks for Real-time Monitoring.",
-        "date": "2026-01-14",
-        "time": "11:30 - 12:15",
-        "speaker": "Eduard Buss",
-        "topic": "Living Networks for Real-time Monitoring.",
-        "image": "images/eduard_buss.jpg",
-        "abstract": "Plants continuously sense and integrate environmental stimuli through rich physiological responses, yet this information is rarely exploited for real-time monitoring. I present living networks for real-time monitoring, a bio-hybrid sensing approach that integrates living plants with embedded sensor nodes. Results from controlled and outdoor experiments show that plant electrical signals contain discriminative patterns for inferring environmental and plant conditions.",
-        "bio": "Eduard Buss is a Ph.D. candidate in the Cyber-Physical Systems Group at the University of Konstanz. His research focuses on bio-hybrid systems, with a particular interest on using plants as living sensors for environmental monitoring and precision agriculture. He holds a master’s degree in Robotics and Autonomous Systems from the University of Lübeck, Germany.",
-        "location": "Z8 Kitchen"
-    },
-    {
-        "id": "seminar53",
         "title": "Fission–Fusion Processes for Regulation of Group Size and Number in Multi-Agent Systems.",
         "date": "2026-02-04",
         "time": "11:30 - 12:15",
@@ -600,7 +588,7 @@
         "location": "Z8 Kitchen"
     },
     {
-        "id": "seminar54",
+        "id": "seminar53",
         "title": "Decision-making Models across Scales.",
         "date": "2026-01-28",
         "time": "11:30 - 12:15",
@@ -609,6 +597,30 @@
         "image": "images/dan_gorbonos.jpg",
         "abstract": "TBA.",
         "bio": "",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar54",
+        "title": "Stable Robot Motions on Manifolds: Learning Lyapunov-Constrained Neural Manifold ODEs.",
+        "date": "2026-03-11",
+        "time": "11:30 - 12:15",
+        "speaker": "David Boetius",
+        "topic": "Stable Robot Motions on Manifolds: Learning Lyapunov-Constrained Neural Manifold ODEs.",
+        "image": "images/david_boetius.jpg",
+        "abstract": "Neural ordinary differential equations provide a continuous-time, expressive framework for learning robot dynamics from data, making them well suited for motion generation. Recently, neural ODEs have been extended to Riemannian manifolds, the geometric structures that many important robotic quantities such as rotations and stiffness lie on. In this talk, I will presents a framework that combines neural ODEs on Riemannian manifolds with learned Lyapunov functions to provide stability guarantees. Stability is essential for ensuring robust task completion in motion generation.",
+        "bio": " David Boetius is a PhD student at University of Konstant working on formal methods for neural networks under the supervision of Stefan Leue and Tobias Sutter. Recently, he has developed an an interest in cyber-physical systems.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar55",
+        "title": "Doing your own thing, together: The special role of specialized roles in group coordination.",
+        "date": "2026-01-28",
+        "time": "11:30 - 12:15",
+        "speaker": "Robert Goldstone",
+        "topic": "Doing your own thing, together: The special role of specialized roles in group coordination.",
+        "image": "images/robert_goldstone.jpg",
+        "abstract": "TBA.",
+        "bio": "Robert Goldstone is a Distinguished Professor in the Psychological and Brain Sciences department and Cognitive Science program at Indiana University. His research interests include concept learning and representation, perceptual learning, educational applications of cognitive science, decision making, collective behavior, and computational modeling of human cognition.  He won the 1996 Chase Memorial Prize, the 2000 APA Distinguished Scientific Award for Early Career Contribution to Psychology, a 2004 Troland research award from the National Academy of Sciences, and the 2024 Warren Medal for Outstanding Achievement in Experimental Psychology from the Society of Experimental Psychologists.  He was the executive editor of Cognitive Science from 2001-2005, Director of the Indiana University Cognitive Science Program from 2006-2011, and executive editor of Current Directions in Psychological Science from 2020-2025.  He has been elected as a fellow of the Society of Experimental Psychologists, the Cognitive Science Society, and the American Academy of Arts and Sciences.",
         "location": "Z8 Kitchen"
     }
 ]
