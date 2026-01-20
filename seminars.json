@@ -622,5 +622,17 @@
         "abstract": "TBA.",
         "bio": "Robert Goldstone is a Distinguished Professor in the Psychological and Brain Sciences department and Cognitive Science program at Indiana University. His research interests include concept learning and representation, perceptual learning, educational applications of cognitive science, decision making, collective behavior, and computational modeling of human cognition.  He won the 1996 Chase Memorial Prize, the 2000 APA Distinguished Scientific Award for Early Career Contribution to Psychology, a 2004 Troland research award from the National Academy of Sciences, and the 2024 Warren Medal for Outstanding Achievement in Experimental Psychology from the Society of Experimental Psychologists.  He was the executive editor of Cognitive Science from 2001-2005, Director of the Indiana University Cognitive Science Program from 2006-2011, and executive editor of Current Directions in Psychological Science from 2020-2025.  He has been elected as a fellow of the Society of Experimental Psychologists, the Cognitive Science Society, and the American Academy of Arts and Sciences.",
         "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar56",
+        "title": "A winter of simulation: Above, on, and under water.",
+        "date": "2026-02-18",
+        "time": "11:30 - 12:15",
+        "speaker": "Pranav Kedia",
+        "topic": "A winter of simulation: Above, on, and under water.",
+        "image": "images/pranav_kedia.jpg",
+        "abstract": "TBA.",
+        "bio": "Hello! I'm Pranav Kedia, a Ph.D. researcher at the cyber physical group supervised by Prof. Dr. Heiko Hamann at the University of Konstanz, where I'm affiliated with the Centre for the Advanced Study of Collective Behaviour. I am working on a swarm of autonomous sailboats optimized for long-duration endurance. This research has been a combination of learning about sailing and applying my skills and knowledge in Embedded systems and Robotics. Previously, I worked on Bee Waggle Robot in the EU H2020 project 'Hiveopolis' at the Biorobtics Lab led by Prof. Dr. Tim Landgraf at the Free University of Berlin. I completed my master's majoring in electronics and communication with a specialization in embedded systems at IIIT-B. Previously, I was fortunate to be part of the Surgical and Assistive Robotics Lab, led by Prof. Madhav Rao. I was also part of the ARMS lab, led by Dr. Arpita Sinha at IIT Bombay, India, in the summer of 2019. Prof. Sachit Rao had supervised me on guided coursework and non-course projects. I enjoy working on Bio-inspired Swarm Robotics and Swarm Intelligence methods. You can find details of my Publications and Projects here.",
+        "location": "Z8 Kitchen"
     }
 ]
