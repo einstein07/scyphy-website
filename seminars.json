@@ -595,8 +595,8 @@
         "speaker": "Dan Gorbonos",
         "topic": "Decision-making Models across Scales.",
         "image": "images/dan_gorbonos.jpg",
-        "abstract": "TBA.",
-        "bio": "",
+        "abstract": "Many approaches to autonomous robot navigation struggle to make rapid decisions when confronted with symmetric goals, even though such speed is essential for robust, real-time autonomy. We propose a modeling framework in which decision making manifests as a phase transition, and we characterize its generic structure. We demonstrate how this mechanism can account for both individual and collective decision making in animal behavior, and we discuss its potential application to autonomous navigation.",
+        "bio": "TBA.",
         "location": "Z8 Kitchen"
     },
     {
