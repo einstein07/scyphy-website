@@ -631,8 +631,56 @@
         "speaker": "Pranav Kedia",
         "topic": "A winter of simulation: Above, on, and under water.",
         "image": "images/pranav_kedia.jpg",
-        "abstract": "TBA.",
+        "abstract": "I present my results from a “winter of simulation” in which fieldwork was largely impractical, prompting me to use virtual experiments to de-risk ideas that span above, on, and under water. I introduce SailSwarmSwIM, a scalable simulator for swarms of autonomous sailboats in which wind is treated as a first-class system state, and classical collective-motion models must be adapted to sailing constraints, such as no-go zones and tacking. The key result is that gusts and waves can drive repeatable, non-monotonic changes in swarm metrics (area, polarization), highlighting that environment fields can shape collective behavior as strongly as interaction rules. Underwater, I present BIND-USBL, a HoloOcean-based study of heterogeneous ASV–AUV teams in GPS-denied conditions, where a surface vehicle acts as a mobile base station and provides event-triggered USBL corrections to bound IMU drift under a limited acoustic servicing budget.",
         "bio": "Hello! I'm Pranav Kedia, a Ph.D. researcher at the cyber physical group supervised by Prof. Dr. Heiko Hamann at the University of Konstanz, where I'm affiliated with the Centre for the Advanced Study of Collective Behaviour. I am working on a swarm of autonomous sailboats optimized for long-duration endurance. This research has been a combination of learning about sailing and applying my skills and knowledge in Embedded systems and Robotics. Previously, I worked on Bee Waggle Robot in the EU H2020 project 'Hiveopolis' at the Biorobtics Lab led by Prof. Dr. Tim Landgraf at the Free University of Berlin. I completed my master's majoring in electronics and communication with a specialization in embedded systems at IIIT-B. Previously, I was fortunate to be part of the Surgical and Assistive Robotics Lab, led by Prof. Madhav Rao. I was also part of the ARMS lab, led by Dr. Arpita Sinha at IIT Bombay, India, in the summer of 2019. Prof. Sachit Rao had supervised me on guided coursework and non-course projects. I enjoy working on Bio-inspired Swarm Robotics and Swarm Intelligence methods. You can find details of my Publications and Projects here.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar57",
+        "title": "ROS-2-ARGoS Bridge: Scalable Simulations of Swarms of 1000 and More Robots.",
+        "date": "2026-02-25",
+        "time": "11:30 - 12:15",
+        "speaker": "Paolo Leopardi",
+        "topic": "ROS-2-ARGoS Bridge: Scalable Simulations of Swarms of 1000 and More Robots.",
+        "image": "images/paolo_leopardi.jpg",
+        "abstract": "TBA.",
+        "bio": "Paolo Leopardi is a Ph.D. candidate in the Cyber-Physical Systems Group at the University of Konstanz and a member of the Center for the Advanced Study of Collective Behaviour. His research focuses on evolutionary swarm robotics, investigating how task partitioning and task allocation emerge in robot swarms. He holds a Master’s degree in Computer and Robotics Engineering from the University of Perugia, Italy. Since 2025, he has been a board member of the editorial team of the prestigious and worldwide recognised Sci-Phy seminar series.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar58",
+        "title": "Co-improvising with the non-human: embedding algorithms inspired by group intelligence into semi-autonomous instruments for musical improvisation.",
+        "date": "2026-03-04",
+        "time": "11:30 - 12:15",
+        "speaker": "Federico Visi",
+        "topic": "Co-improvising with the non-human: embedding algorithms inspired by group intelligence into semi-autonomous instruments for musical improvisation.",
+        "image": "images/federico_visi.jpeg",
+        "abstract": "In this seminar, I will present my current artistic research into how non-human group intelligence and self-organisation can inform the design of multi-agent systems for musical co-improvisation. Central to my work is the Sophtar, a string instrument I developed that features an embedded system capable of running recent machine learning models and signal processing algorithms, automated electromechanical actuators, and controlled electroacoustic feedback capabilities. The instrument acts as a boundary object, a place of encounter between newly developed co-improvising algorithmic agents and human performers. I will introduce the instrument, its current algorithms and models, and those planned for experimentation during my residency at CASCB. Finally, I will outline the ideas behind a hardware co-improvising agent currently in the early stages of development.",
+        "bio": "Federico Visi is a researcher and musician based in Berlin, Germany. His work explores the interplay between human and non-human agencies in music, embodiment in networked music performance, and interactive machine learning. He has recently designed a networkable feedback string instrument with embedded machine learning called the Sophtar. He currently works as a researcher at Luleå University of Technology and he is a member of the TCP/Indeterminate Place networked hyperorgan quartet. He obtained his PhD at the Interdisciplinary Centre for Computer Music Research (ICCMR), University of Plymouth, and collaborates with research labs at several international institutions including University of Iceland, Goldsmiths University of London, and Universität der Künste Berlin.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar59",
+        "title": "Stochastic Bandits on the Rise: Lever-aging Rising Bandits for AutoML.",
+        "date": "2026-03-18",
+        "time": "11:30 - 12:15",
+        "speaker": "Till Aust",
+        "topic": "Stochastic Bandits on the Rise: Lever-aging Rising Bandits for AutoML.",
+        "image": "images/till_aust.jpg",
+        "abstract": "TBA.",
+        "bio": "Till Aust studied Robotics and Autonomous Systems at the University of Lübeck, where he earned both his Bachelor's and Master's degrees. He then joined the Cyber-Physical Systems Group led by Prof. Heiko Hamann as a PhD student, focusing on the analysis of physiological signals in bio-hybrid systems. His research contributes to the EU-funded projects WatchPlant and ChronoPilot, where he explores methods to interpret physiological data for controlling bio-hybrid systems and enabling feedback mechanisms.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar60",
+        "title": "TBA.",
+        "date": "2026-03-18",
+        "time": "11:30 - 12:15",
+        "speaker": "Vassil Radoynovski",
+        "topic": "TBA.",
+        "image": "images/vassil_radoynovski.jpg",
+        "abstract": "TBA.",
+        "bio": "TBA.",
         "location": "Z8 Kitchen"
     }
 ]
