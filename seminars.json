@@ -666,19 +666,19 @@
         "time": "11:30 - 12:15",
         "speaker": "Till Aust",
         "topic": "Stochastic Bandits on the Rise: Lever-aging Rising Bandits for AutoML.",
-        "image": "images/till_aust.jpg",
+        "image": "images/Aust.png",
         "abstract": "TBA.",
         "bio": "Till Aust studied Robotics and Autonomous Systems at the University of Lübeck, where he earned both his Bachelor's and Master's degrees. He then joined the Cyber-Physical Systems Group led by Prof. Heiko Hamann as a PhD student, focusing on the analysis of physiological signals in bio-hybrid systems. His research contributes to the EU-funded projects WatchPlant and ChronoPilot, where he explores methods to interpret physiological data for controlling bio-hybrid systems and enabling feedback mechanisms.",
         "location": "Z8 Kitchen"
     },
     {
         "id": "seminar60",
-        "title": "TBA.",
+        "title": "Reactive collision avoidance for a mobile robot using omnidirectional optical flow.",
         "date": "2026-03-18",
         "time": "11:30 - 12:15",
         "speaker": "Vassil Radoynovski",
-        "topic": "TBA.",
-        "image": "images/vassil_radoynovski.jpg",
+        "topic": "Reactive collision avoidance for a mobile robot using omnidirectional optical flow.",
+        "image": "images/vassil_radoynovski.png",
         "abstract": "TBA.",
         "bio": "TBA.",
         "location": "Z8 Kitchen"
