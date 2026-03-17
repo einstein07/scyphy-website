@@ -21,7 +21,7 @@ header {
 
 .header-title {
     /* flex: 1 1 200px; */
-    max-width: 15%;
+    max-width:100%;
     height: auto;
     object-fit: contain;
 }
