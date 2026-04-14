@@ -694,5 +694,41 @@
         "abstract": "As Large Language Models are increasingly deployed in multi-agent settings, understanding their collective behavior becomes essential. In this talk I show how tools from complexity science, statistical physics, social psychology, and sociology can be used to understand the emergent phenomena observed in societies of AI agents. A central finding is that AI agents exhibit a strong tendency toward majority following, a mechanism that operates both when forming social ties and when updating opinions, naturally giving rise to scale-free networks and collective norm convergence. While this tendency can enable spontaneous coordination without external intervention, it also carries risks: it can amplify errors, reinforce biases, and produce collective misalignment even when individual agents are well-aligned. These signatures of conformity and social influence are not only a characteristic of small scale experiments, but can also be observed in large scale multi-agents social networks like Moltbook. Together, these results suggest that AI agent societies present similar collective dynamics as observed in human collectives, with important implications for both AI safety and our understanding of collective AI behavior.",
         "bio": "Giordano De Marzo is a postdoctoral researcher and lecturer at the University of Konstanz, where he is part of the Social Data Science Lab. His work focuses on the modelling and the study of collective machine behavior, with a current emphasis on large language models and AI agents. Prior to his position in Konstanz, he was a doctoral student at the Enrico Fermi Research Center, the Department of Physics at Sapienza University of Rome, and the Sapienza School for Advanced Studies. During his PhD, he focused on modelling complex digital systems using numerical simulations, analytical methods, and machine learning. He obtained both his MSc in Theoretical Physics and his BSc in Physics from Sapienza University. In addition to his background in physics, he has experience in machine learning, natural language processing, and data analysis. He is a Junior Research Fellow at the Complexity Science Hub Vienna and a fellow of the Imminent Research Center and the Enrico Fermi Research Center. He has also serves as a consultant for the International Labour Office, the United Nations University, and the private sector.",
         "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar62",
+        "title": "Modeling high density collective behavior in C. elegans.",
+        "date": "2026-04-22",
+        "time": "11:30 - 12:15",
+        "speaker": "Carlo Longhi",
+        "topic": "Modeling high density collective behavior in C. elegans.",
+        "image": "images/carlo_longhi.jpg",
+        "abstract": " This talk presents an analysis of collective behavior in C. elegans. At high population densities, these nematodes form striking branching structures: a phenomenon we investigate using a classical zonal model of collective behavior with targeted modifications. We show that this approach successfully reproduces the observed branching patterns, shedding light on the underlying forces that shape them and illuminating a broader class of patterns commonly found in nature. The talk also addresses the challenges of studying this model organism and introduces a new set of recently collected videos documenting its behavior in these difficult conditions. Finally, the talk explores the prospect of engineering collective behavior in biological robots, drawing on insights from the C. elegans model.",        
+        "bio": "Carlo is a PhD student at the Sapienza University of Rome and the Institute of Cognitive Science and Technology of the Italian National Research Council in the Collective Intelligence in Natural and Artificial Systems Lab. He holds a BSc in Computer Engineering and MSc in Artificial Intelligence from the University of Bologna. His work contributes to the Babots project for which he uses various modeling techniques to study and engineer the emergence of collective behavior in biological animal robots.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar63",
+        "title": "Biologically inspired recurrent neural network modeling of an evidence integrator circuit.",
+        "date": "2026-04-29",
+        "time": "11:30 - 12:15",
+        "speaker": "Armin Bahl",
+        "topic": "Biologically inspired recurrent neural network modeling of an evidence integrator circuit.",
+        "image": "images/armin_bahl.png",
+        "abstract": "TBA", 
+        "bio": "TBA",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar64",
+        "title": "TBA.",
+        "date": "2026-05-06",
+        "time": "11:30 - 12:15",
+        "speaker": "Iacopo Hachen",
+        "topic": "TBA.",
+        "image": "images/iacopo_hachen.jpg",
+        "abstract": "TBA", 
+        "bio": "TBA",
+        "location": "Z8 Kitchen"
     }
 ]
