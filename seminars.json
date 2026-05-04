@@ -546,7 +546,7 @@
         "time": "11:30 - 12:15",
         "speaker": "Paolo Leopardi",
         "topic": " On the Cost of Evolving Task Specialization in Multi-Robot Systems",
-        "image": "images/paolo_leopardi.jpg",
+        "image": "images/paolo_leopardi.jpeg",
         "abstract": "Task specialization can lead to simpler behaviors and higher efficiency in multi-robot systems. Previous studies have demonstrated the emergence of task-specific robot controllers through evolutionary optimization. However, most of these studies have prioritized feasibility over cost. Using a foraging task inspired by leafcutter ants, we evolved artificial neural networks with generalist behaviors for the entire task and task-specialist behaviors for subtasks, within a limited evaluation budget. This constraint naturally arises when high-fidelity simulators are required to ensure a reliable transfer from simulation to real-world robotic systems. We demonstrate that generalist behaviors can be successfully optimized, whereas the optimized task-specialist controllers fail to cooperate efficiently. Consequently, task specialization may not yield higher efficiency under restricted optimization budgets.",
         "bio": "Paolo Leopardi is a Ph.D. candidate in the Cyber-Physical Systems Group at the University of Konstanz and a member of the Center for the Advanced Study of Collective Behaviour. His research focuses on evolutionary swarm robotics, investigating how task partitioning and task allocation emerge in robot swarms. He holds a Master’s degree in Computer and Robotics Engineering from the University of Perugia, Italy. Since 2025, he has been a board member of the editorial team of the prestigious and worldwide recognized Sci-Phy seminar series.",
         "location": "Z8 Kitchen"
@@ -642,7 +642,7 @@
         "time": "11:30 - 12:15",
         "speaker": "Paolo Leopardi",
         "topic": "ROS-2-ARGoS Bridge: Scalable Simulations of Swarms of 1000 and More Robots.",
-        "image": "images/paolo_leopardi.jpg",
+        "image": "images/paolo_leopardi.jpeg",
         "abstract": "The Robot Operating System (ROS) is a widely adopted collection of software libraries and tools for designing and implementing robot control software. Its rapid growth has been driven by an active community that maintains an extensive ecosystem of reusable components, increasingly positioning ROS as a unifying framework bridging academic research and industrial applications. ROS 2 importantly enables decentralized, peer-to-peer communication, making it well suited for scalable and reliable multi-robot systems. Simulations play a critical role in the design and implementation of robotic systems prior to their real-world deployment. For large-scale robotic systems, simulation scalability, that is, the efficient simulation of many robots, is essential. However, existing ROS-based simulators are unable to scale to large numbers of robots, while highly scalable simulators lack integration with the ROS ecosystem. We introduce the ROS-2-ARGoS Bridge, a framework for simulating large-scale robotic systems running software based on ROS 2. We showcase its scalability through experiments with up to 1280 simulated robots that locally interact and coordinate their actions. As industries increasingly seek to scale up their robotic infrastructures, our open-source framework offers a timely and practical solution for simulating and designing large-scale multi-robot and swarm systems.",
         "bio": "Paolo Leopardi is a Ph.D. candidate in the Cyber-Physical Systems Group at the University of Konstanz and a member of the Center for the Advanced Study of Collective Behaviour. His research focuses on evolutionary swarm robotics, investigating how task partitioning and task allocation emerge in robot swarms. He holds a Master’s degree in Computer and Robotics Engineering from the University of Perugia, Italy. Since 2025, he has been a board member of the editorial team of the prestigious and worldwide recognized Sci-Phy seminar series.",
         "location": "Z8 Kitchen"
@@ -703,7 +703,7 @@
         "speaker": "Carlo Longhi",
         "topic": "Modeling high density collective behavior in C. elegans.",
         "image": "images/carlo_longhi.jpg",
-        "abstract": " This talk presents an analysis of collective behavior in C. elegans. At high population densities, these nematodes form striking branching structures: a phenomenon we investigate using a classical zonal model of collective behavior with targeted modifications. We show that this approach successfully reproduces the observed branching patterns, shedding light on the underlying forces that shape them and illuminating a broader class of patterns commonly found in nature. The talk also addresses the challenges of studying this model organism and introduces a new set of recently collected videos documenting its behavior in these difficult conditions. Finally, the talk explores the prospect of engineering collective behavior in biological robots, drawing on insights from the C. elegans model.",        
+        "abstract": " This talk presents an analysis of collective behavior in C. elegans. At high population densities, these nematodes form striking branching structures: a phenomenon we investigate using a classical zonal model of collective behavior with targeted modifications. We show that this approach successfully reproduces the observed branching patterns, shedding light on the underlying forces that shape them and illuminating a broader class of patterns commonly found in nature. The talk also addresses the challenges of studying this model organism and introduces a new set of recently collected videos documenting its behavior in these difficult conditions. Finally, the talk explores the prospect of engineering collective behavior in biological robots, drawing on insights from the C. elegans model.",
         "bio": "Carlo is a PhD student at the Sapienza University of Rome and the Institute of Cognitive Science and Technology of the Italian National Research Council in the Collective Intelligence in Natural and Artificial Systems Lab. He holds a BSc in Computer Engineering and MSc in Artificial Intelligence from the University of Bologna. His work contributes to the Babots project for which he uses various modeling techniques to study and engineer the emergence of collective behavior in biological animal robots.",
         "location": "Z8 Kitchen"
     },
@@ -715,7 +715,7 @@
         "speaker": "Armin Bahl",
         "topic": "Biologically inspired recurrent neural network modeling of an evidence integrator circuit.",
         "image": "images/armin_bahl.png",
-        "abstract": "Evidence accumulation is a fundamental neural computation essential for adaptive behavior, yet its synaptic implementation remains unclear. Addressing this challenge critically depends on linking neural dynamics to circuit structure within the same brain. Here, we combine functional calcium imaging with large-scale ultrastructural electron microscopy (EM) to uncover the wiring logic of visual evidence accumulation in larval zebrafish. In a functionally imaged EM dataset of the anterior hindbrain, we identify conserved morphological cell types whose activity patterns define distinct computational roles. Bilateral inhibition, disinhibition, and sparse recurrent connectivity emerge as key circuit motifs shaping these. Based on these results, we train a connectome-constrained neural network model using observed dynamics that yields predictions we tested and confirmed experimentally. Our work illustrates how a combination of several connectivity motifs implements bilateral sensory evidence accumulation in a vertebrate brain.", 
+        "abstract": "Evidence accumulation is a fundamental neural computation essential for adaptive behavior, yet its synaptic implementation remains unclear. Addressing this challenge critically depends on linking neural dynamics to circuit structure within the same brain. Here, we combine functional calcium imaging with large-scale ultrastructural electron microscopy (EM) to uncover the wiring logic of visual evidence accumulation in larval zebrafish. In a functionally imaged EM dataset of the anterior hindbrain, we identify conserved morphological cell types whose activity patterns define distinct computational roles. Bilateral inhibition, disinhibition, and sparse recurrent connectivity emerge as key circuit motifs shaping these. Based on these results, we train a connectome-constrained neural network model using observed dynamics that yields predictions we tested and confirmed experimentally. Our work illustrates how a combination of several connectivity motifs implements bilateral sensory evidence accumulation in a vertebrate brain.",
         "bio": "My research explores how nervous systems transform sensory information into decisions and actions. Using larval zebrafish as a model system, my lab investigates the neural algorithms and circuit mechanisms that allow animals to evaluate their environment, integrate evidence over time, and select adaptive behaviors. A central goal of our work is to understand how relatively small neural circuits can implement sophisticated computations underlying perception, decision-making, and intelligence. To address these questions, we combine behavioral experiments, virtual reality technologies for freely behaving animals, and large-scale neural recording and manipulation. These approaches allow us to link sensory stimuli, neural activity, and behavior with high precision. In parallel, we use advanced microscopy and molecular techniques to uncover the cellular and circuit architectures that implement these computations in the brain. More broadly, our research aims to bridge levels of analysis—from genes and synapses to neural circuits, algorithms, and collective behavior. By integrating experimental neuroscience with computational modeling and emerging molecular methods, we seek to uncover general principles of how brains process information and generate intelligent behavior, both in individuals and in interacting animal groups.",
         "location": "Z8 Kitchen"
     },
@@ -729,6 +729,66 @@
         "image": "images/iacopo_hachen.jpeg",
         "abstract": "In animal groups, sensorimotor algorithms for navigation must enable individual agents to coordinate and exchange information with one another. For example, in zebrafish, the trajectories of individuals at the front of the shoal (\"leaders\") may transmit relevant cues to other members (\"followers\"). However, the complexity of collective networks hinders our ability to establish causal information transfer. To experimentally control information flow between multiple individuals, we employ 3D immersive virtual reality (VR) for freely swimming zebrafish. Each fish is hosted inside a VR apparatus and presented with virtual \"avatars\" of selected conspecifics. This setup allows us to propagate information across experimentally-defined social transmission chains and measure the amount of information lost at each step. In parallel, we simulate transmission chains with artificial agents implementing various navigation algorithms - from simple controllers to ring attractor networks - and compare them to real fish. This framework allows us to evaluate individual sensorimotor algorithms in terms of collective information processing, advancing our understanding of the computations that the brain must implement in order to propagate information in a group.",
         "bio": "Iacopo is a postdoc in the lab of Iain Couzin (MPI-AB, CASCB). He has a background in cognitive neuroscience, having obtained his PhD in the lab of Mathew Diamond (SISSA, Italy). He has a wide-ranging interest in the functional organization of sensorimotor systems. His current research focuses on leveraging collective behavior to understand individual behavioral algorithms.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar65",
+        "title": "Collective behavior in a predatory nematode",
+        "date": "2026-05-13",
+        "time": "11:30 - 12:15",
+        "speaker": "Narcís Font Massot",
+        "topic": "Collective behavior in a predatory nematode",
+        "image": "images/narcis_font_massot.png",
+        "abstract": "TBA",
+        "bio": "TBA",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar66",
+        "title": "TBA",
+        "date": "2026-05-20",
+        "time": "11:30 - 12:15",
+        "speaker": "Paolo Leopardi",
+        "topic": "TBA",
+        "image": "images/paolo_leopardi.jpeg",
+        "abstract": "TBA",
+        "bio": "Paolo Leopardi is a Ph.D. candidate in the Cyber-Physical Systems Group at the University of Konstanz and a member of the Center for the Advanced Study of Collective Behaviour. His research focuses on evolutionary swarm robotics, investigating how task partitioning and task allocation emerge in robot swarms. He holds a Master’s degree in Computer and Robotics Engineering from the University of Perugia, Italy. Since 2025, he has been a board member of the editorial team of the prestigious and worldwide recognized Sci-Phy seminar series.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar67",
+        "title": "Oligarchic decision-making trades accuracy for consensus by decreasing effective group size",
+        "date": "2026-05-27",
+        "time": "11:30 - 12:15",
+        "speaker": "Marco Fele, Eleonora Gatti",
+        "topic": "Oligarchic decision-making trades accuracy for consensus by decreasing effective group size",
+        "image": "images/marco-fele_eleonora-gatti.png",
+        "abstract": "TBA",
+        "bio": "TBA",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar68",
+        "title": "The Hive Mind is a single RL agent",
+        "date": "2026-06-17",
+        "time": "11:30 - 12:15",
+        "speaker": "Karthik Soma",
+        "topic": "The Hive Mind is a single RL agent",
+        "image": "images/karthik-soma.jpg",
+        "abstract": "Decision-making is an essential attribute of any intelligent agent or group. Natural systems are known to converge to effective strategies through at least two distinct mechanisms: collective decision-making via imitation of others, and trial-and-error by a single agent. In this talk, I will present our recent findings that establish an equivalence between these two paradigms by drawing from the well-studied collective decision-making problem of nest-hunting in swarms of honey bees. Our findings show that emergent distributed cognition (sometimes referred to as the “hive mind” ) arising from individuals following simple, local imitation-based rules is that of a single online reinforcement learning (RL) agent interacting with many parallel environments. More specifically, in the purely imitative weighted voter model of bees’ waggle dance, the update rule through which this macro-agent learns is a multi-armed bandit algorithm called Maynard-Cross Learning. Our analysis implies that a group of purely imitative organisms can be equivalent to a more complex, reinforcement-enabled entity, substantiating the idea that group-level intelligence may explain how seemingly simple and blind individual behaviors are selected in nature. Beyond biology, the framework offers new tools for analyzing economic and social systems where individuals imitate successful strategies, effectively participating in a collective learning process. Our findings may further inform the design of scalable RL-inspired collective systems in artificial domains.",
+        "bio": "Karthik Soma completed his undergraduate studies at NIT Trichy, India, and is currently a PhD student at Polytechnique Montréal, Canada, under the supervision of Prof. Giovanni Beltrame. His research sits at the intersection of robotics, reinforcement learning, and swarm intelligence, exploring how collective intelligence emerges from simple individual behaviors.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar69",
+        "title": "Exploring speed dating in antelopes with a fleet of drones",
+        "date": "2026-06-24",
+        "time": "11:30 - 12:15",
+        "speaker": "Hemal Naik",
+        "topic": "Exploring speed dating in antelopes with a fleet of drones",
+        "image": "images/placeholder_chatgpt.png",
+        "abstract": "TBA",
+        "bio": "My research focuses on behavior patterns of insects, mammals and birds. I specialize in using large deployment of sensors and AI for studying wild groups of animals. Currently, I am a post-doc at the Max Planck Institute of Animal Behavior and University of Konstanz. Beyond academic research, I work as an independent artist and organize educational outreach activities around the world to support capacity building in local communities.",
         "location": "Z8 Kitchen"
     }
 ]
