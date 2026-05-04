@@ -727,8 +727,8 @@
         "speaker": "Iacopo Hachen",
         "topic": "Sensorimotor processing beyond the individual.",
         "image": "images/iacopo_hachen.jpeg",
-        "abstract": "TBA",
-        "bio": "TBA",
+        "abstract": "In animal groups, sensorimotor algorithms for navigation must enable individual agents to coordinate and exchange information with one another. For example, in zebrafish, the trajectories of individuals at the front of the shoal (\"leaders\") may transmit relevant cues to other members (\"followers\"). However, the complexity of collective networks hinders our ability to establish causal information transfer. To experimentally control information flow between multiple individuals, we employ 3D immersive virtual reality (VR) for freely swimming zebrafish. Each fish is hosted inside a VR apparatus and presented with virtual \"avatars\" of selected conspecifics. This setup allows us to propagate information across experimentally-defined social transmission chains and measure the amount of information lost at each step. In parallel, we simulate transmission chains with artificial agents implementing various navigation algorithms - from simple controllers to ring attractor networks - and compare them to real fish. This framework allows us to evaluate individual sensorimotor algorithms in terms of collective information processing, advancing our understanding of the computations that the brain must implement in order to propagate information in a group.",
+        "bio": "Iacopo is a postdoc in the lab of Iain Couzin (MPI-AB, CASCB). He has a background in cognitive neuroscience, having obtained his PhD in the lab of Mathew Diamond (SISSA, Italy). He has a wide-ranging interest in the functional organization of sensorimotor systems. His current research focuses on leveraging collective behavior to understand individual behavioral algorithms.",
         "location": "Z8 Kitchen"
     }
 ]
