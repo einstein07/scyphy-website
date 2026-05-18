@@ -763,8 +763,8 @@
         "speaker": "Marco Fele, Eleonora Gatti",
         "topic": "Oligarchic decision-making trades accuracy for consensus by decreasing effective group size",
         "image": "images/marco-fele_eleonora-gatti.png",
-        "abstract": "TBA",
-        "bio": "TBA",
+        "abstract": "In Temnothorax ants, novel nest-site selection is oligarchic: a small subset of leaders dominates information transmission during collective decision-making. Despite the presence of such striking division of labour, its functional advantages remain unclear. Here, we investigate the consequences of centralized decision-making across several well-established theoretical models and assess the relevance of these predictions for real ant behavior. By extending results from evolutionary dynamics in structured populations to models of opinion dynamics, we show that leadership consistently reduces the “effective group size” — the size of a smaller democratic population with equivalent performance. This reduction decreases decision accuracy by weakening the wisdom-of-crowds effect, but simultaneously enhances consensus formation through noise-induced order. To evaluate whether these effects arise in natural systems, we develop a Bayesian framework that combines network inference with stochastic simulations to fit an agent-based model of ant emigration. Our results suggest that oligarchic decision-making in ant colonies may promote reliable consensus formation, highlighting a potential adaptive benefit of leadership-driven collective behavior.",
+        "bio": "Eleonora Gatti is a PhD student at the University of Konstanz in the Move.in.Formation group, studying optimal movement in soaring flight. After studying Physics at the University of Milan, she completed her master's thesis in the Department of Collective Behavior, where she worked on models of collective decision making.",
         "location": "Z8 Kitchen"
     },
     {
