@@ -786,8 +786,8 @@
         "time": "11:30 - 12:15",
         "speaker": "Hemal Naik",
         "topic": "Exploring speed dating in antelopes with a fleet of drones",
-        "image": "images/placeholder_chatgpt.png",
-        "abstract": "TBA",
+        "image": "images/hemal_naik.png",
+        "abstract": "I will talk about project MELA - Mating Ecology of a Lek-breeding Antelope. I will introduce a novel workflow that allows high-resolution 3D tracking (geo-referenced) of antelopes directly using aerial videos captured by drones. Our technique for the first time allows large scale multi-sensor monitoring of large animal herds (with 30 cm accuracy) without putting sensors on the animals. We use six UAVs (3 simultaneously) to record behavior for up to 2 hour. The data collection workflow is currently managed by manual pilots. I want to seek opinion of the robotics community for building fully automated and scalable monitoring systems for wild animals.",
         "bio": "My research focuses on behavior patterns of insects, mammals and birds. I specialize in using large deployment of sensors and AI for studying wild groups of animals. Currently, I am a post-doc at the Max Planck Institute of Animal Behavior and University of Konstanz. Beyond academic research, I work as an independent artist and organize educational outreach activities around the world to support capacity building in local communities.",
         "location": "Z8 Kitchen"
     }
