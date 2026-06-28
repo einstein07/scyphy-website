@@ -790,5 +790,66 @@
         "abstract": "I will talk about project MELA - Mating Ecology of a Lek-breeding Antelope. I will introduce a novel workflow that allows high-resolution 3D tracking (geo-referenced) of antelopes directly using aerial videos captured by drones. Our technique for the first time allows large scale multi-sensor monitoring of large animal herds (with 30 cm accuracy) without putting sensors on the animals. We use six UAVs (3 simultaneously) to record behavior for up to 2 hour. The data collection workflow is currently managed by manual pilots. I want to seek opinion of the robotics community for building fully automated and scalable monitoring systems for wild animals.",
         "bio": "My research focuses on behavior patterns of insects, mammals and birds. I specialize in using large deployment of sensors and AI for studying wild groups of animals. Currently, I am a post-doc at the Max Planck Institute of Animal Behavior and University of Konstanz. Beyond academic research, I work as an independent artist and organize educational outreach activities around the world to support capacity building in local communities.",
         "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar70",
+        "title": "The Sound of Bees: Stop signal detection and automatic audio and video monitoring in beehives.",
+        "date": "2025-07-01",
+        "time": "13:15 - 13:55",
+        "speaker": "Mattia Montanari",
+        "topic": "The Sound of Bees: Stop signal detection and automatic audio and video monitoring in beehives.",
+        "image": "images/mattia_montanari.jpg",
+        "abstract": "TBA.",
+        "bio": "TBA.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar71",
+        "title": "Bridging Task Allocation with Ring Attractors.",
+        "date": "2025-07-08",
+        "time": "13:15 - 13:55",
+        "speaker": "Simay Atasoy",
+        "topic": "Bridging Task Allocation with Ring Attractors.",
+        "image": "images/simay.png",
+        "abstract": "TBA.",
+        "bio": "Simay Atasoy earned a Master’s degree in Electrical and Electronics Engineering from Middle East Technical University, Turkey, in 2022.During her master's studies, she worked in the robotics research and development department of a company. After completing her degree, she continued working in the industry before transitioning to academia. She is currently pursuing a PhD in Computer Science at the University of Konstanz, where her research focuses on collective decision making and task allocation.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar72",
+        "title": "TBA.",
+        "date": "2025-07-15",
+        "time": "13:15 - 13:55",
+        "speaker": "Pranav Kedia",
+        "topic": "TBA.",
+        "image": "images/pranav_kedia.jpg",
+        "abstract": "TBA.",
+        "bio": "TBA.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar73",
+        "title": "TBA.",
+        "date": "2025-07-22",
+        "time": "13:15 - 13:55",
+        "speaker": "Alessio Franci",
+        "topic": "TBA.",
+        "image": "images/alessio_franci.jpg",
+        "abstract": "TBA.",
+        "bio": "TBA.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar74",
+        "title": "TBA.",
+        "date": "2025-07-29",
+        "time": "13:15 - 13:55",
+        "speaker": "Brendan Bilodeau and Ethan Beaudoin",
+        "topic": "TBA.",
+        "image": "images/brandon_ethan.jpg",
+        "abstract": "TBA.",
+        "bio": "TBA.",
+        "location": "Z8 Kitchen"
     }
+
 ]
