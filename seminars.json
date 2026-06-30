@@ -799,8 +799,8 @@
         "speaker": "Mattia Montanari",
         "topic": "The Sound of Bees: Stop signal detection and automatic audio and video monitoring in beehives.",
         "image": "images/mattia_montanari.jpg",
-        "abstract": "TBA.",
-        "bio": "TBA.",
+        "abstract": "This talk presents one of the first engineering steps of the Sound of Bees project, which aims to develop a multimodal framework for monitoring honeybee communication in observation hives, with particular focus on the stop signal. Studying the stop signal is challenging because candidate events are rare and cannot be reliably identified from audio alone, so visual validation is still required and large-scale quantitative analysis remains difficult. The work presented here introduces an end-to-end multimodal framework that combines hardware, acquisition software, and post-processing tools for continuous multichannel audio and synchronized video recording. Two approaches for candidate extraction were evaluated: a classical Digital Signal Processing (DSP) pipeline and an Animal2vec-based deep-learning method. Although Animal2vec showed promising results on validation data, it generalized poorly to new recordings, while the DSP pipeline proved more reliable as a conservative high-precision retrieval tool.",
+        "bio": "Mattia Montanari earned a Bachelor’s degree in Computer Engineering from the University of Ferrara in 2023 and later pursued a Master’s degree in Acoustic and Music Engineering at Politecnico di Milano. He completed his Master’s thesis at the Center for the Advanced Study of Collective Behaviour department of the University of Konstanz within the Sound of Bees project, developing an end-to-end framework for continuous monitoring and automatic detection of honeybee stop-signal events.",
         "location": "Z8 Kitchen"
     },
     {
@@ -824,7 +824,7 @@
         "topic": "Speed-Weighted Flocking for Sailing Swarms.",
         "image": "images/pranav_kedia.jpg",
         "abstract": "TBA.",
-        "bio": "TBA.",
+        "bio": "Hello! I'm Pranav Kedia, a Ph.D. researcher at the cyber physical group supervised by Prof. Dr. Heiko Hamann at the University of Konstanz, where I'm affiliated with the Centre for the Advanced Study of Collective Behaviour. I am working on a swarm of autonomous sailboats optimized for long-duration endurance. This research has been a combination of learning about sailing and applying my skills and knowledge in Embedded systems and Robotics. Previously, I worked on Bee Waggle Robot in the EU H2020 project 'Hiveopolis' at the Biorobtics Lab led by Prof. Dr. Tim Landgraf at the Free University of Berlin. I completed my master's majoring in electronics and communication with a specialization in embedded systems at IIIT-B. Previously, I was fortunate to be part of the Surgical and Assistive Robotics Lab, led by Prof. Madhav Rao. I was also part of the ARMS lab, led by Dr. Arpita Sinha at IIT Bombay, India, in the summer of 2019. Prof. Sachit Rao had supervised me on guided coursework and non-course projects. I enjoy working on Bio-inspired Swarm Robotics and Swarm Intelligence methods.",
         "location": "Z8 Kitchen"
     },
     {
