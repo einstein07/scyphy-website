@@ -817,13 +817,13 @@
     },
     {
         "id": "seminar72",
-        "title": "Speed-Weighted Flocking for Sailing Swarms.",
+        "title": "COMB: Common Open Modular robotic platform for Bees",
         "date": "2026-07-15",
         "time": "11:30 - 12:15",
         "speaker": "Pranav Kedia",
-        "topic": "Speed-Weighted Flocking for Sailing Swarms.",
+        "topic": "COMB: Common Open Modular robotic platform for Bees",
         "image": "images/pranav_kedia.jpg",
-        "abstract": "TBA.",
+        "abstract": "Experimental access to real honeybee colonies requires robotic systems capable of operating within limited spatial constraints, tolerating hive-specific fouling and environmental conditions, and supporting both sensing and localized actuation without frequent hardware redesign. This paper introduces COMB, a compact, open-source, modular mechatronic platform designed for in-hive experiments within standard observation-hive frames. The platform integrates a XY positioning stage, a Movable Access Window (MAW) for sealed tool access through the hive boundary, interchangeable payload modules, and an embedded control architecture that enables repeatable trajectory execution and signal generation. The platform's capabilities are demonstrated through three representative modules: a biomimetic dance-and-signaling payload, a close-range comb scanner, and an electromagnetic wing actuator for localized oscillatory stimulation. This paper details the hardware and software design of COMB, outlines its operational capabilities, and describes the supporting infrastructure for conducting real-world in-hive experiments. The platform is characterized in engineering terms through tracking waggle-trajectory executions, performing multi-image stitching for repeated comb mosaics, and conducting video-based spectral analysis of the wing actuator. These results position COMB as a reusable experimental robotics platform for controlled in-hive sensing and actuation, and as a compact, generalized successor to earlier task-specific honeybee robotic systems.",
         "bio": "Hello! I'm Pranav Kedia, a Ph.D. researcher at the cyber physical group supervised by Prof. Dr. Heiko Hamann at the University of Konstanz, where I'm affiliated with the Centre for the Advanced Study of Collective Behaviour. I am working on a swarm of autonomous sailboats optimized for long-duration endurance. This research has been a combination of learning about sailing and applying my skills and knowledge in Embedded systems and Robotics. Previously, I worked on Bee Waggle Robot in the EU H2020 project 'Hiveopolis' at the Biorobtics Lab led by Prof. Dr. Tim Landgraf at the Free University of Berlin. I completed my master's majoring in electronics and communication with a specialization in embedded systems at IIIT-B. Previously, I was fortunate to be part of the Surgical and Assistive Robotics Lab, led by Prof. Madhav Rao. I was also part of the ARMS lab, led by Dr. Arpita Sinha at IIT Bombay, India, in the summer of 2019. Prof. Sachit Rao had supervised me on guided coursework and non-course projects. I enjoy working on Bio-inspired Swarm Robotics and Swarm Intelligence methods.",
         "location": "Z8 Kitchen"
     },
