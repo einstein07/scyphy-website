@@ -835,8 +835,8 @@
         "speaker": "Stefano Covone",
         "topic": "Unveiling Collective Motion through Neural Decision-Making.",
         "image": "images/stefano_covone.jpeg",
-        "abstract": "TBA.",
-        "bio": "TBA.",
+        "abstract": "How do individual decisions give rise to coordinated collective motion? In this talk, I will present a modelling framework that connects neural decision-making at the individual level with the emergence of group-level behaviours such as swarming and flocking. The model combines internal neural dynamics with social interactions and perception, allowing us to investigate how agents respond to their neighbours and collectively organize their motion. The results show how changes in decision-making and sensory processing can generate different forms of collective behaviour, promote the emergence of leadership, and shape the structure and stability of moving groups. More broadly, this approach provides a bridge between neural mechanisms, individual behaviour, and collective dynamics.",
+        "bio": "Stefano Covone is a Ph.D. candidate in Modeling and Engineering Risk and Complexity at the Scuola Superiore Meridionale – School for Advanced Studies in Naples, Italy. He received his M.Sc. degree in Automation and Robotics Engineering from the University of Naples Federico II in 2024, completing a thesis on learning-based control of multi-agent systems under the supervision of Prof. Mario di Bernardo. His research focuses on emergent collective behaviour in multi-agent systems, with particular emphasis on learning-based control, decision-making, and biologically inspired models of coordination. His doctoral research is supervised by Prof. Mario di Bernardo, Dr. Francesco De Lellis, and Prof. Mirco Musolesi.",
         "location": "Z8 Kitchen"
     },
     {
