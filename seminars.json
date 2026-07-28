@@ -847,8 +847,8 @@
         "speaker": "Brendan Bilodeau",
         "topic": "Exploring and Coordinating Optimal Team Sizes with Thymio Robots Swarm.",
         "image": "images/brandon_ethan.jpg",
-        "abstract": "TBA.",
-        "bio": "TBA.",
+        "abstract": "How do simple individual rules give rise to coordinated collective motion in physical robot swarms? In this talk, I will present my current research utilizing Thymio robots to bridge models of multi-agent coordination with real-world physical implementation. The project explores how these platforms utilize their onboard infrared sensors for local perception, allowing us to investigate how agents respond to their neighbors and collectively organize their motion. The work highlights the practical challenges of distributed control, demonstrating how changes in sensor processing and control algorithms shape the emergence of group-level behaviors like swarming and obstacle avoidance. More broadly, this approach provides a practical framework for understanding collective dynamics and decision-making in physical robotic systems.",
+        "bio": "Brendan Bilodeau is a Bachelor's student in Robotics Engineering at the Université de Sherbrooke in Quebec, Canada. He is currently completing a DAAD RISE Germany research internship at the University of Konstanz. His academic project work includes the development of a real-time perception autonomous racecar utilizing Python, LiDAR sensors, and ROS 2. His broader engineering interests focus on autonomous systems, sensor integration, and practical hardware architecture.",
         "location": "Z8 Kitchen"
     },
     {
@@ -859,9 +859,8 @@
         "speaker": "Ethan Beaudoin",
         "topic": "Design and deployment of a TurtleBot4 controller for simulated and real‑world robotics experiments.",
         "image": "images/brandon_ethan.jpg",
-        "abstract": "TBA.",
-        "bio": "TBA.",
+        "abstract": "This presentation highlights my work during a summer research internship under the supervision of Paolo Leopardi at the Centre for the Advanced Study of Collective Behaviour, University of Konstanz. My project focused on developing software infrastructure and autonomous controllers for swarm robotics experiments involving TurtleBot4 and Thymio robots. I contributed to the integration of ROS 2 with simulation and motion-capture systems, implemented perception pipelines for multiple sensors, and developed both neural-network-based and classical controllers for autonomous navigation and collective behaviors. In addition, I worked on bridging simulation and real-world experiments, enabling more efficient testing, validation, and deployment of swarm robotics algorithms.",
+        "bio": "Ethan Beaudoin is a Bachelor's student in Robotics Engineering at the Université de Sherbrooke, Canada. His interests include autonomous robotics, artificial intelligence, computer vision, and multi-robot systems. Throughout his studies, he has gained experience developing robotic software with ROS 2, integrating perception systems, and designing autonomous control algorithms for both simulated and real-world robotic platforms. He is particularly interested in autonomous vehicles, intelligent robots, and the development of robust autonomous systems.",
         "location": "Z8 Kitchen"
     }
-
 ]
