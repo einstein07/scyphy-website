@@ -862,5 +862,89 @@
         "abstract": "This presentation highlights my work during a summer research internship under the supervision of Paolo Leopardi at the Centre for the Advanced Study of Collective Behaviour, University of Konstanz. My project focused on developing software infrastructure and autonomous controllers for swarm robotics experiments involving TurtleBot4 and Thymio robots. I contributed to the integration of ROS 2 with simulation and motion-capture systems, implemented perception pipelines for multiple sensors, and developed both neural-network-based and classical controllers for autonomous navigation and collective behaviors. In addition, I worked on bridging simulation and real-world experiments, enabling more efficient testing, validation, and deployment of swarm robotics algorithms.",
         "bio": "Ethan Beaudoin is a Bachelor's student in Robotics Engineering at the Université de Sherbrooke, Canada. His interests include autonomous robotics, artificial intelligence, computer vision, and multi-robot systems. Throughout his studies, he has gained experience developing robotic software with ROS 2, integrating perception systems, and designing autonomous control algorithms for both simulated and real-world robotic platforms. He is particularly interested in autonomous vehicles, intelligent robots, and the development of robust autonomous systems.",
         "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar76",
+        "title": "Beyond bio-inspiration for collective soaring of birds and robots.",
+        "date": "2026-08-05",
+        "time": "11:30 - 12:15",
+        "speaker": "Mate Nagy",
+        "topic": "Beyond bio-inspiration for collective soaring of birds and robots.",
+        "image": "images/mate_nagy.jpg",
+        "abstract": "TBA.",
+        "bio": "TBA.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar77",
+        "title": "Not Every Forecast Deserves Your Money: Reliability Estimation for Financial Foundation Models.",
+        "date": "2026-08-12",
+        "time": "11:30 - 12:15",
+        "speaker": "Till Aust",
+        "topic": "Not Every Forecast Deserves Your Money: Reliability Estimation for Financial Foundation Models.",
+        "image": "images/till_aust.jpg",
+        "abstract": "TBA.",
+        "bio": "TBA.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar78",
+        "title": "Where to (Crazy)fly? Decision making on a Spherical Attractor Network for Aerial Robots.",
+        "date": "2026-08-19",
+        "time": "11:30 - 12:50",
+        "speaker": "Noah Ginzburg",
+        "topic": "Where to (Crazy)fly? Decision making on a Spherical Attractor Network for Aerial Robots.",
+        "image": "images/noah_louis.jpg",
+        "abstract": "TBA.",
+        "bio": "TBA.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar79",
+        "title": "Acoustic homing with Bayesian ring attractor network.",
+        "date": "2026-08-19",
+        "time": "11:50 - 12:10",
+        "speaker": "Louis Renard",
+        "topic": "Acoustic homing with Bayesian ring attractor network.",
+        "image": "images/noah_louis.jpg",
+        "abstract": "TBA.",
+        "bio": "TBA.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar80",
+        "title": "Bridging the gap to real-world TurtleBot 4 swarms.",
+        "date": "2026-08-26",
+        "time": "11:30 - 12:50",
+        "speaker": "Xavier Parker",
+        "topic": "Bridging the gap to real-world TurtleBot 4 swarms.",
+        "image": "images/xavier_redwin.jpg",
+        "abstract": "TBA.",
+        "bio": "TBA.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar81",
+        "title": "How to (Boden)See? Day-and-Night Perception for a Swarm of Autonomous Sailboats.",
+        "date": "2026-08-26",
+        "time": "11:50 - 12:10",
+        "speaker": "Edwin Redhead",
+        "topic": "How to (Boden)See? Day-and-Night Perception for a Swarm of Autonomous Sailboats.",
+        "image": "images/xavier_redwin.jpg",
+        "abstract": "TBA.",
+        "bio": "TBA.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar82",
+        "title": "Navigating Safely: Ring Attractors for Robust Collision Avoidance.",
+        "date": "2026-09-02",
+        "time": "11:30 - 12:15",
+        "speaker": "Vassil Radoynovski",
+        "topic": "Navigating Safely: Ring Attractors for Robust Collision Avoidance.",
+        "image": "images/vassil_radoynovski.png",
+        "abstract": "TBA.",
+        "bio": "TBA.",
+        "location": "Z8 Kitchen"
     }
 ]
