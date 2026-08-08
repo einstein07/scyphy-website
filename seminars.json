@@ -883,8 +883,8 @@
         "speaker": "Till Aust",
         "topic": "Not Every Forecast Deserves Your Money: Reliability Estimation for Financial Foundation Models.",
         "image": "images/till_aust.jpg",
-        "abstract": "TBA.",
-        "bio": "TBA.",
+        "abstract": "Financial foundation models have recently demonstrated impressive forecasting capabilities, yet not every forecast deserves your money. Identifying which predictions are reliable enough to act upon is therefore a key challenge for translating predictive performance into profitable trading decisions. To this end, this talk presents a model-agnostic reliability estimation framework that complements financial foundation models with a dedicated reliability estimator. By separating forecasting from reliability assessment, the framework identifies predictions that are more likely to support profitable trading decisions without modifying the underlying forecasting model. Experiments on cryptocurrency markets demonstrate that selectively acting on high-confidence forecasts improves trading performance over acting on every prediction. The presented work highlights how reliability estimation can make financial foundation models more robust and actionable in practice.",
+        "bio": "Till Aust is a PhD student in the Cyber-Physical Systems Group at the University of Konstanz, supervised by Prof. Heiko Hamann. His research focuses on developing machine learning methods for physiological signal analysis to enable robust control and feedback in bio-hybrid systems. During a research stay in Prof. Helmut Prendinger's lab at the National Institute of Informatics in Tokyo, he has been exploring how these methods can be extended to reliable financial time-series forecasting.",
         "location": "Z8 Kitchen"
     },
     {
