@@ -895,8 +895,8 @@
         "speaker": "Noah Ginzburg",
         "topic": "Where to (Crazy)fly? Decision making on a Spherical Attractor Network for Aerial Robots.",
         "image": "images/noah_louis.jpg",
-        "abstract": "TBA.",
-        "bio": "TBA.",
+        "abstract": "Animals such as insects have exceptional navigational abilities, despite their small brains and limited sensory precision. Research in neuroscience showed that a fundamental component of their navigational system is the ring attractor network.This mechanism acts as an internal compass and allows insects to maintain a robust sense of direction even in complex and noisy environments. This project explores methods to extend the ring attractor into a three-dimensional attractor network to then implement a bio-inspired navigation controller for a Crazyflie drone. The drone’s heading and movement toward a target will be determined by the dynamics of a three-dimensional activity bump. By following this approach, the aim is to understand the geometry of 3D decision making and bifurcation, and to create a system that is capable of adaptive and biologically plausible navigation strategies.",
+        "bio": "Noah Ginzburg is an undergraduate robotics engineering student, coming from Queen's University, Canada. He is currently part of the DAAD RISE Germany program, working as an intern with the Cyber-Physical Systems group at the University of Konstanz. His research focuses on extending a 2D ring attractor model to 3D Spherical attractor and deploying it on a crazyflie drone, with a particular focus on understanding the geometry of 3D decision making and bifurcation. His research is supervised by Prof. Andreagiovanni Reina, and PhD students Sindiso Mkhatshwa and Simay Atasoy.",
         "location": "Z8 Kitchen"
     },
     {
@@ -907,8 +907,8 @@
         "speaker": "Louis Renard",
         "topic": "Acoustic homing with Bayesian ring attractor network.",
         "image": "images/noah_louis.jpg",
-        "abstract": "TBA.",
-        "bio": "TBA.",
+        "abstract": "In this talk, I will present my current research implementing a Bayesian ring attractor model, originally proposed to explain heading representation in the fly brain, on a physical robot for real-time acoustic homing. The project uses a microphone array, IMU, and camera to estimate the direction of a sound source, feeding these noisy, time-varying signals into a ring attractor network whose activity bump encodes both a heading estimate and a live measure of confidence in that estimate. Using a ROS2 pipeline to coordinate the robot with a Vicon motion-capture system, I evaluate this approach against ground truth to assess the model's performance in a highly noisy environment. The work highlights the practical challenges of translating a neuroscience-inspired probabilistic model into real-time robotic control.",
+        "bio": "Louis Renard is a Bachelor's student in Computer Science at McGill University in Montreal, Canada. He is currently completing a summer research internship in the Collective Robotics Group at the University of Konstanz, supervised by Dr. Andreagiovanni Reina. At McGill, he has worked as a teaching assistant for Computer Systems and Discrete Structures courses. His broader interests include algorithm design, NLP, and neuroscience-inspired approaches to engineering.",
         "location": "Z8 Kitchen"
     },
     {
