@@ -931,8 +931,8 @@
         "speaker": "Edwin Redhead",
         "topic": "How to (Boden)See? Day-and-Night Perception for a Swarm of Autonomous Sailboats.",
         "image": "images/xavier_edwin.jpg",
-        "abstract": "TBA.",
-        "bio": "TBA.",
+        "abstract": "A swarm of small autonomous sailboats could monitor Lake Constance for a week at a time on wind power alone. However, the lake is shared with swimmers, rowers, ferries, and ducks, so each boat must reliably see and avoid obstacles in daylight, at night, and in rain, using low-cost hardware. This talk presents a perception system that fuses a colour camera, a thermal camera and radar aboard a small sailing vessel, the learned models that let it understand its surroundings in real time, and the first on-water results from Lake Constance. It closes with the road ahead: from data campaigns, to avoidance trials, to the full swarm.",
+        "bio": "Edwin Redhead is a DAAD-RISE scholar at the University of Konstanz, where he works on all-weather perception for the SailSwarm autonomous sailboat platform, fusing fisheye vision, thermal imaging and mmWave radar so that small boats can see their way through Lake Constance by day and by night. He is an MEng Robotics and AI student at University College London (UCL), where he directs the Nexus Labs, coordinating 110+ student researchers across robotics and AI. He has built vision-language-action systems for high-voltage industrial manipulation at Extend Robotics, and is co-founder and CTO of Palaestra Labs, which turns raw data of real construction and manufacturing work into training data for robot learning.",
         "location": "Z8 Kitchen"
     },
     {
