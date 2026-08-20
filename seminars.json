@@ -919,8 +919,8 @@
         "speaker": "Xavier Parker",
         "topic": "Bridging the gap to real-world TurtleBot 4 swarms.",
         "image": "images/xavier_edwin.jpg",
-        "abstract": "TBA.",
-        "bio": "TBA.",
+        "abstract": "Swarm robotics research relies heavily on simulation, yet controllers that produce the desired collective behaviour in simulation typically degrade when deployed on physical robots. This sim-to-real gap is particularly costly for swarms, where the effort of configuring and running experiments scales with the number of robots. This work presents a unified framework in which a single YAML specification defines an experiment that can be executed either as a batched simulation in the Vectorized Multi-Agent Simulator (VMAS) or directly on a swarm of ten TurtleBot 4 robots, with minimal reconfiguration between the two. To support systematic comparison, an analysis pipeline built on MCAP logs extracts matched metrics from both simulated and hardware runs. In addition, a ROS 2 communication package models range-limited, occlusion-aware message passing, allowing realistic communication constraints to be imposed consistently in simulation and on hardware. The framework is demonstrated on an aggregation task, with the communication package tested during live hardware runs.",
+        "bio": "Xavier Parker is an undergraduate Robotics and Artificial Intelligence student from University College London, United Kingdom. He is currently part of the DAAD RISE Germany program, working as an intern with the Cyber-Physical Systems group at the University of Konstanz. His research focuses on bridging the sim-to-real gap between the Vectorized Multi-Agent Simulator (VMAS) and physical TurtleBot 4 swarms, and on developing infrastructure for running hardware experiments reliably and reproducibly. His research is supervised by Dr. Jonas Kuckling and PhD student André Fialho Jesus.",
         "location": "Z8 Kitchen"
     },
     {
@@ -931,8 +931,8 @@
         "speaker": "Edwin Redhead",
         "topic": "How to (Boden)See? Day-and-Night Perception for a Swarm of Autonomous Sailboats.",
         "image": "images/xavier_edwin.jpg",
-        "abstract": "Swarm robotics research relies heavily on simulation, yet controllers that produce the desired collective behaviour in simulation typically degrade when deployed on physical robots. This sim-to-real gap is particularly costly for swarms, where the effort of configuring and running experiments scales with the number of robots. This work presents a unified framework in which a single YAML specification defines an experiment that can be executed either as a batched simulation in the Vectorized Multi-Agent Simulator (VMAS) or directly on a swarm of ten TurtleBot 4 robots, with minimal reconfiguration between the two. To support systematic comparison, an analysis pipeline built on MCAP logs extracts matched metrics from both simulated and hardware runs. In addition, a ROS 2 communication package models range-limited, occlusion-aware message passing, allowing realistic communication constraints to be imposed consistently in simulation and on hardware. The framework is demonstrated on an aggregation task, with the communication package tested during live hardware runs.",
-        "bio": "Xavier Parker is an undergraduate Robotics and Artificial Intelligence student from University College London, United Kingdom. He is currently part of the DAAD RISE Germany program, working as an intern with the Cyber-Physical Systems group at the University of Konstanz. His research focuses on bridging the sim-to-real gap between the Vectorized Multi-Agent Simulator (VMAS) and physical TurtleBot 4 swarms, and on developing infrastructure for running hardware experiments reliably and reproducibly. His research is supervised by Dr. Jonas Kuckling and PhD student André Fialho Jesus.",
+        "abstract": "TBA.",
+        "bio": "TBA.",
         "location": "Z8 Kitchen"
     },
     {
