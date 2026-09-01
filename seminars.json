@@ -943,8 +943,8 @@
         "speaker": "AG Vassil Radoynovski",
         "topic": "Navigating Safely: Ring Attractors for Robust Collision Avoidance.",
         "image": "images/vassil_radoynovski.png",
-        "abstract": "TBA.",
-        "bio": "TBA.",
+        "abstract": "Robot navigation remains one of the core challenges in mobile robotics. Alongside well-documented methods such as Simultaneous Localization and Mapping (SLAM), which can be computationally expensive, optical flow offers a lightweight, reactive alternative inspired by the navigation strategies of bees. In this work, a robot equipped with a catadioptric camera — giving it a 360° field of view — and a standard camera computes optical flow onboard, with all computation performed on the robot's own onboard computer. While optical flow has been widely used for obstacle avoidance, this work investigates using a ring attractor neural network to make the avoidance decision from this optical flow input, evaluated against a naive balancing approach using the same hardware setup. The ring attractor's parameters were tuned through systematic sweeps, and live experiments were recorded using a motion-capture tracking system to obtain ground-truth trajectories for evaluation. Results show the ring attractor achieves better performance in arena testing than the naive balancing approach. This work lays the groundwork for extending the approach to event cameras in place of frame-based sensing.",
+        "bio": "Vassil Radoynovski recently completed his Bachelor's degree in Computer Science at the University of Konstanz, specializing in Visual Computing, and will begin his Master's at the University of Zurich (UZH) this winter. For the past year, he worked as HiWi in the GIO Lab, supervised by Dr. Andreagiovanni Reina, alongside PhD student Sindiso Mkhatshwa. His work centered on bio-inspired robot navigation — using optical flow as input to a reactive obstacle-avoidance system running on a small robot with an onboard computer.",
         "location": "Z8 Kitchen"
     }
 ]
