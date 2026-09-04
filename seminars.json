@@ -946,5 +946,65 @@
         "abstract": "Robot navigation remains one of the core challenges in mobile robotics. Alongside well-documented methods such as Simultaneous Localization and Mapping (SLAM), which can be computationally expensive, optical flow offers a lightweight, reactive alternative inspired by the navigation strategies of bees. In this work, a robot equipped with a catadioptric camera — giving it a 360° field of view — and a standard camera computes optical flow onboard, with all computation performed on the robot's own onboard computer. While optical flow has been widely used for obstacle avoidance, this work investigates using a ring attractor neural network to make the avoidance decision from this optical flow input, evaluated against a naive balancing approach using the same hardware setup. The ring attractor's parameters were tuned through systematic sweeps, and live experiments were recorded using a motion-capture tracking system to obtain ground-truth trajectories for evaluation. Results show the ring attractor achieves better performance in arena testing than the naive balancing approach. This work lays the groundwork for extending the approach to event cameras in place of frame-based sensing.",
         "bio": "Vassil Radoynovski recently completed his Bachelor's degree in Computer Science at the University of Konstanz, specializing in Visual Computing, and will begin his Master's at the University of Zurich (UZH) this winter. For the past year, he worked as HiWi in the GIO Lab, supervised by Dr. Andreagiovanni Reina, alongside PhD student Sindiso Mkhatshwa. His work centered on bio-inspired robot navigation — using optical flow as input to a reactive obstacle-avoidance system running on a small robot with an onboard computer.",
         "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar83",
+        "title": "Neuro-inspired models for spatiotemporal decision making in audio-based robots.",
+        "date": "2026-09-09",
+        "time": "11:30 - 12:15",
+        "speaker": "Allen John Binu",
+        "topic": "Neuro-inspired models for spatiotemporal decision making in audio-based robots.",
+        "image": "images/allenjohnbinu.png",
+        "abstract": "Auditory navigation remains a challenging problem in mobile robotics, particularly when robots must make directional decisions from noisy and ambiguous acoustic information. Inspired by biological auditory systems and ring attractor neural networks, this work investigates a neuro-inspired approach to directional decision making using acoustic information from competing sound sources. Rather than relying on one or two discrete direction-of-arrival (DOA) estimates, the proposed approach uses the complete DOA response distribution produced by the audio localisation system and projects it onto a ring attractor as a continuous external input. The framework is implemented on SonoRo, a mobile robot equipped with a five-microphone array and onboard acoustic processing, and evaluated through both offline analyses and real-time navigation experiments using a sequential turn-and-go strategy. The influence of the ring attractor's internal parameters on decision-making behaviour is systematically investigated, and experimental results demonstrate that the network can integrate distributed auditory evidence to produce stable directional decisions under competing and uncertain acoustic conditions. This work provides a biologically inspired framework for integrating richer spatial auditory information into robotic decision making and navigation.",
+        "bio": "Allen John Binu is currently pursuing his Master's degree in Computer Science at the University of Konstanz. He completed his Bachelor's degree at the National Institute of Technology Calicut and has been working as a Software Developer at SAP SE for the past five years. Alongside his professional work, his academic interests focus on bio-inspired robotics, auditory perception, and neural decision-making for autonomous robots. His current work investigates the use of ring attractor neural networks for auditory decision making, where distributed direction-of-arrival information from a microphone array is integrated to enable a mobile robot to navigate toward competing sound sources under uncertain acoustic conditions. He has also co-authored research published in the field of biomedical engineering and signal processing.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar84",
+        "title": "TBA.",
+        "date": "2026-09-16",
+        "time": "11:30 - 12:15",
+        "speaker": "Donatien Leray",
+        "topic": "TBA.",
+        "image": "images/donatienleray.jpg",
+        "abstract": "TBA.",
+        "bio": "TBA.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar85",
+        "title": "TBA.",
+        "date": "2026-09-23",
+        "time": "11:30 - 12:15",
+        "speaker": "Michael Stroh",
+        "topic": "TBA.",
+        "image": "images/michaelstroh.jpg",
+        "abstract": "TBA.",
+        "bio": "TBA.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar86",
+        "title": "TBA.",
+        "date": "2026-09-30",
+        "time": "11:30 - 12:15",
+        "speaker": "Albin Salazar",
+        "topic": "TBA.",
+        "image": "images/albinsalazar.jpg",
+        "abstract": "TBA.",
+        "bio": "TBA.",
+        "location": "Z8 Kitchen"
+    },
+    {
+        "id": "seminar87",
+        "title": "TBA.",
+        "date": "2026-10-07",
+        "time": "11:30 - 12:15",
+        "speaker": "Riccardo Corà",
+        "topic": "TBA.",
+        "image": "images/riccardocoragrave.png",
+        "abstract": "TBA.",
+        "bio": "TBA.",
+        "location": "Z8 Kitchen"
     }
 ]
