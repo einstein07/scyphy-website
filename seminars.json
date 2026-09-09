@@ -450,9 +450,9 @@
         "time": "11:30 - 12:15",
         "speaker": "AG Vassil Radoynovski",
         "topic": "Robot Navigation with Optic Flow",
-        "image": "images/placeholder_chatgpt.png",
+        "image": "images/vassil_radoynovski.png",
         "abstract": "TBA",
-        "bio": "TBA",
+        "bio": "Vassil Radoynovski is a Bachelor’s student at the University of Konstanz with an interest in computer vision and bio-inspired robotics. He is currently working under the supervision of Dr. Andreagiovanni Reina on optical-flow-based navigation. In his ongoing research, he focuses on implementing omnidirectional vision for reactive navigation on the Ringattractor.",
         "location": "Z8 Kitchen"
     },
     {
